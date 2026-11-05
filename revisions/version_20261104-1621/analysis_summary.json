@@ -1,0 +1,29 @@
+{
+  "funders": 15,
+  "award_records": 253,
+  "counts": {
+    "Open Technology Fund": 20,
+    "Human Rights Foundation — Bitcoin Development Fund": 20,
+    "OpenSats": 20,
+    "Mozilla Foundation — Mozilla Technology Fund": 20,
+    "Civil Rights Defenders": 0,
+    "Freedom House": 0,
+    "European Endowment for Democracy": 20,
+    "National Endowment for Democracy": 20,
+    "Fund for Investigative Journalism": 20,
+    "Journalismfund Europe": 20,
+    "Investigative Journalism for Europe": 17,
+    "Pulitzer Center": 16,
+    "European Commission Creative Europe": 20,
+    "Open Society Foundations": 20,
+    "ECPMF / Media Freedom Rapid Response": 20
+  },
+  "source_urls": 82,
+  "coding_adjustments": 39,
+  "readiness_known_weight": 60,
+  "readiness_bounds": [
+    20.0,
+    60.0
+  ],
+  "exact_pseudonymization_matches": []
+}

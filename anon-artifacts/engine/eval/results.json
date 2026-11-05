@@ -1,0 +1,542 @@
+{
+  "note": "synthetic and small; not a benchmark",
+  "results": [
+    {
+      "config": "pass1",
+      "passes": [
+        "patterns"
+      ],
+      "deny_terms": true,
+      "leaked": 28,
+      "gold_values": 121,
+      "leak_rate": 0.2314,
+      "leaked_by_entity": {
+        "ADDRESS": {
+          "leaked": 2,
+          "total": 8
+        },
+        "API_KEY": {
+          "leaked": 7,
+          "total": 7
+        },
+        "CREDIT_CARD": {
+          "leaked": 0,
+          "total": 4
+        },
+        "DATE": {
+          "leaked": 0,
+          "total": 14
+        },
+        "EMAIL": {
+          "leaked": 0,
+          "total": 8
+        },
+        "IBAN": {
+          "leaked": 0,
+          "total": 7
+        },
+        "ID_NUMBER": {
+          "leaked": 0,
+          "total": 4
+        },
+        "LOCATION": {
+          "leaked": 10,
+          "total": 10
+        },
+        "PASSWORD": {
+          "leaked": 6,
+          "total": 6
+        },
+        "PERSON": {
+          "leaked": 2,
+          "total": 43
+        },
+        "PHONE": {
+          "leaked": 0,
+          "total": 9
+        },
+        "TOKEN": {
+          "leaked": 1,
+          "total": 1
+        }
+      },
+      "over_redaction_rate": 0.0,
+      "over_redacted_items": 0,
+      "must_keep_items": 79,
+      "roundtrip_exact": "8/8",
+      "roundtrip_modulo_secrets": "0/8",
+      "seconds": 0.25,
+      "documents": {
+        "01_meeting_notes.md": {
+          "leaked": [
+            "Port Halvren",
+            "Tr0ub4dor&3",
+            "AKIAIOSFODNN7EXAMPLE"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        },
+        "02_partner_email.txt": {
+          "leaked": [
+            "Margarite",
+            "Ostermark",
+            "AKIAI44QH8DHBEXAMPLE"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        },
+        "03_call_transcript.txt": {
+          "leaked": [
+            "Kellmouth",
+            "Blue-Harbor-4471",
+            "AKIAJ7TESTKEY2EXAMPLE"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        },
+        "04_status_update.md": {
+          "leaked": [
+            "Ostermark",
+            "Port Halvren",
+            "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+            "Winter#Lamp88"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        },
+        "05_report.md": {
+          "leaked": [
+            "Kellmouth",
+            "31 Chandler Row",
+            "ghp_16C7e42F292c6912E7710c838347Ae178B4a"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        },
+        "06_website_text.md": {
+          "leaked": [
+            "Port Halvren",
+            "Harbour!Light2025",
+            "AKIAIOSFODNN7EXAMPLE"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        },
+        "07_grant_application.txt": {
+          "leaked": [
+            "Kellmouth",
+            "Ostermark",
+            "Orchard-Gate-9921",
+            "AKIAI44QH8DHBEXAMPLE"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        },
+        "08_news_story.txt": {
+          "leaked": [
+            "Layla Al-Mansoori",
+            "Kellmouth",
+            "Chandler Row",
+            "Newsdesk2025!",
+            "AKIAJ7TESTKEY2EXAMPLE"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": true,
+          "roundtrip_modulo_secrets": false
+        }
+      }
+    },
+    {
+      "config": "pass2",
+      "passes": [
+        "libraries"
+      ],
+      "deny_terms": false,
+      "leaked": 27,
+      "gold_values": 121,
+      "leak_rate": 0.2231,
+      "leaked_by_entity": {
+        "ADDRESS": {
+          "leaked": 2,
+          "total": 8
+        },
+        "API_KEY": {
+          "leaked": 0,
+          "total": 7
+        },
+        "CREDIT_CARD": {
+          "leaked": 0,
+          "total": 4
+        },
+        "DATE": {
+          "leaked": 14,
+          "total": 14
+        },
+        "EMAIL": {
+          "leaked": 2,
+          "total": 8
+        },
+        "IBAN": {
+          "leaked": 0,
+          "total": 7
+        },
+        "ID_NUMBER": {
+          "leaked": 4,
+          "total": 4
+        },
+        "LOCATION": {
+          "leaked": 1,
+          "total": 10
+        },
+        "PASSWORD": {
+          "leaked": 0,
+          "total": 6
+        },
+        "PERSON": {
+          "leaked": 0,
+          "total": 43
+        },
+        "PHONE": {
+          "leaked": 4,
+          "total": 9
+        },
+        "TOKEN": {
+          "leaked": 0,
+          "total": 1
+        }
+      },
+      "over_redaction_rate": 0.0,
+      "over_redacted_items": 0,
+      "must_keep_items": 79,
+      "roundtrip_exact": "0/8",
+      "roundtrip_modulo_secrets": "8/8",
+      "seconds": 0.41,
+      "documents": {
+        "01_meeting_notes.md": {
+          "leaked": [
+            "27 Harbour Street",
+            "K4471982",
+            "14 March 2025",
+            "2 September 2026",
+            "11 April 2025",
+            "+44 20 7946 0123"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "02_partner_email.txt": {
+          "leaked": [
+            "3 June 2025"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "03_call_transcript.txt": {
+          "leaked": [
+            "9 November 2024",
+            "12 December 2024",
+            "P8836214"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "04_status_update.md": {
+          "leaked": [
+            "3 February 2025",
+            "14 February 2025"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "05_report.md": {
+          "leaked": [
+            "04/07/1989",
+            "R2290417",
+            "+49 30 555 0176"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "06_website_text.md": {
+          "leaked": [
+            "27 Harbour Street",
+            "research@lantern-rights.example",
+            "+1 415 555 0177",
+            "6 May 2025"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "07_grant_application.txt": {
+          "leaked": [
+            "18 September 2024",
+            "30 April 2025",
+            "X5530981"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "08_news_story.txt": {
+          "leaked": [
+            "Kellmouth",
+            "19 May 2025",
+            "20 January 2025",
+            "tips@kellmouth-courier.example",
+            "+44 161 496 0112"
+          ],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        }
+      }
+    },
+    {
+      "config": "pass1+2",
+      "passes": [
+        "patterns",
+        "libraries"
+      ],
+      "deny_terms": true,
+      "leaked": 0,
+      "gold_values": 121,
+      "leak_rate": 0.0,
+      "leaked_by_entity": {
+        "ADDRESS": {
+          "leaked": 0,
+          "total": 8
+        },
+        "API_KEY": {
+          "leaked": 0,
+          "total": 7
+        },
+        "CREDIT_CARD": {
+          "leaked": 0,
+          "total": 4
+        },
+        "DATE": {
+          "leaked": 0,
+          "total": 14
+        },
+        "EMAIL": {
+          "leaked": 0,
+          "total": 8
+        },
+        "IBAN": {
+          "leaked": 0,
+          "total": 7
+        },
+        "ID_NUMBER": {
+          "leaked": 0,
+          "total": 4
+        },
+        "LOCATION": {
+          "leaked": 0,
+          "total": 10
+        },
+        "PASSWORD": {
+          "leaked": 0,
+          "total": 6
+        },
+        "PERSON": {
+          "leaked": 0,
+          "total": 43
+        },
+        "PHONE": {
+          "leaked": 0,
+          "total": 9
+        },
+        "TOKEN": {
+          "leaked": 0,
+          "total": 1
+        }
+      },
+      "over_redaction_rate": 0.0,
+      "over_redacted_items": 0,
+      "must_keep_items": 79,
+      "roundtrip_exact": "0/8",
+      "roundtrip_modulo_secrets": "8/8",
+      "seconds": 0.36,
+      "documents": {
+        "01_meeting_notes.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "02_partner_email.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "03_call_transcript.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "04_status_update.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "05_report.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "06_website_text.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "07_grant_application.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "08_news_story.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        }
+      }
+    },
+    {
+      "config": "pass1+2-noterms",
+      "passes": [
+        "patterns",
+        "libraries"
+      ],
+      "deny_terms": false,
+      "leaked": 0,
+      "gold_values": 121,
+      "leak_rate": 0.0,
+      "leaked_by_entity": {
+        "ADDRESS": {
+          "leaked": 0,
+          "total": 8
+        },
+        "API_KEY": {
+          "leaked": 0,
+          "total": 7
+        },
+        "CREDIT_CARD": {
+          "leaked": 0,
+          "total": 4
+        },
+        "DATE": {
+          "leaked": 0,
+          "total": 14
+        },
+        "EMAIL": {
+          "leaked": 0,
+          "total": 8
+        },
+        "IBAN": {
+          "leaked": 0,
+          "total": 7
+        },
+        "ID_NUMBER": {
+          "leaked": 0,
+          "total": 4
+        },
+        "LOCATION": {
+          "leaked": 0,
+          "total": 10
+        },
+        "PASSWORD": {
+          "leaked": 0,
+          "total": 6
+        },
+        "PERSON": {
+          "leaked": 0,
+          "total": 43
+        },
+        "PHONE": {
+          "leaked": 0,
+          "total": 9
+        },
+        "TOKEN": {
+          "leaked": 0,
+          "total": 1
+        }
+      },
+      "over_redaction_rate": 0.0,
+      "over_redacted_items": 0,
+      "must_keep_items": 79,
+      "roundtrip_exact": "0/8",
+      "roundtrip_modulo_secrets": "8/8",
+      "seconds": 0.36,
+      "documents": {
+        "01_meeting_notes.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "02_partner_email.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "03_call_transcript.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "04_status_update.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "05_report.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "06_website_text.md": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "07_grant_application.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        },
+        "08_news_story.txt": {
+          "leaked": [],
+          "over_redacted": [],
+          "roundtrip_exact": false,
+          "roundtrip_modulo_secrets": true
+        }
+      }
+    }
+  ]
+}

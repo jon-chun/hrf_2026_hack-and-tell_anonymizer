@@ -1,0 +1,19 @@
+ ▐▛███▛█   Claude Code v2.1.318
+▝▜██████▀  Opus 5.5 · Claude Ultra
+ ▝▝   ▝▝   ~/code/hrf_2026_hack-and-tell_anonymizer
+
+
+! code .                                                                        
+  ⎿  (Bash completed with no output)
+
+⏺ VS Code should now be open on this repo, and the command returned no errors.
+  What would you like to work on?
+
+✻ Sautéed for 6s · done 3:16 PM
+
+❯ /model                                                                        
+  ⎿  Set model to Fable 5.1 and saved as your default for new sessions
+
+❯ /effort                                                                       
+  ⎿  Set effort level to xhigh (saved as your default for new sessions): Deeper
+     reasoning than high, just below maximum (on supported models)

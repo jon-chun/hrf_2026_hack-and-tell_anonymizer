@@ -1,0 +1,15 @@
+Subject: Follow-up on the joint monitoring proposal
+
+Dear Margarite,
+
+Thank you for hosting us in Ostermark last week. I enjoyed meeting Dr. Kasimir Dobrev and the whole legal team. As promised, here is a short summary of what we agreed.
+
+Our organisation, the Lantern Rights Collective, will share anonymised case summaries with your clinic every month. In return, the team led by Marguerite Osei-Lindqvist will train our volunteers on interviewing survivors safely. My colleague Ines Calloway-Mbeki is now the main contact for logistics; you can reach her at ines.calloway@lantern-rights.example or on +1 415 555 0132.
+
+For the travel grant, please send the invoice to our finance office at 88 Tannery Lane, Ostermark. We pay by transfer to FR14 2004 1010 0505 0001 3M02 606. If a card payment is easier, the test number we use in the portal is 4111 1111 1111 1111, expiry 08/27.
+
+One security reminder: please do not forward the shared drive credentials. The upload script currently uses api_key = "AKIAI44QH8DHBEXAMPLE" and I will rotate it on 3 June 2025. Dr. Dobrev has asked that his regional office be copied on anything about the clinic budget.
+
+Warm regards,
+Yusuf Brandvold
+Programme Director, Lantern Rights Collective

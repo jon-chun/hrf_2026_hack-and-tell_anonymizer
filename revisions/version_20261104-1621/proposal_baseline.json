@@ -1,0 +1,69 @@
+{
+  "status": "provisional technical concept; no grant proposal supplied",
+  "as_of": "2026-11-04",
+  "timezone": "America/Los_Angeles",
+  "sources": [
+    {
+      "path": "anon-artifacts/spec/tech-spec.md",
+      "sha256": "3e19a0a02e828f8dccdf1a8f4ea124fd3a2f5cb85d3db00c7cc3b7a8d05ce504",
+      "status": "design specification, not implementation evidence"
+    },
+    {
+      "path": "dev/chat_anon_v1_grok _20261104.md",
+      "sha256": "3f7b155a798196c1473ed80a61f23d56dc1e85e14572162144ddcc68989767b3",
+      "status": "background conversation, external technical claims not accepted as verified"
+    },
+    {
+      "path": "LICENSE",
+      "status": "Apache 2.0 repository license; deliverable licensing to be confirmed"
+    }
+  ],
+  "summary": "Local-first tool to detect sensitive entities in long-form text, substitute consistent realistic surrogates, retain an encrypted keyed restoration map, and check residual disclosure risk. Intended human-rights/civil-society document workflows. Optional cloud QA receives only processed text; a fully local operational path must be demonstrated.",
+  "features": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "feature_evidence": [
+    "Spec sections1–3: sensitive text, source exposure and adversaries",
+    "Spec section3/QA backends: local pipeline; optional cloud is not an exclusively offline claim",
+    "Spec invariants3–5 and sections4–5: keyed consistent reversible surrogates",
+    "Spec section1: meeting notes, reports, applications, news and narratives",
+    "Spec section1: explicit human-rights/civil-society primary use; no validated demand supplied",
+    "Repository LICENSE Apache2.0; reusable engine design, dissemination plan unknown"
+  ],
+  "unknowns": [
+    "Authoritative grant proposal",
+    "Applicant identity, legal status, country and fiscal sponsor",
+    "Grant program/call identifier",
+    "Budget, requested amount and co-funding",
+    "Team track record, accountable lead and availability",
+    "Timeline, milestones and cost allocation",
+    "Confirmed users, partner letters and publication commitments",
+    "Measured accuracy, privacy, utility and runtime",
+    "Deployment/maintenance/security-audit evidence"
+  ],
+  "readiness_scores": {
+    "strategic_fit": null,
+    "validated_need": 1,
+    "technical_case": 2,
+    "delivery": 1,
+    "adoption": null,
+    "measurement": 1,
+    "economics": null,
+    "communication": 2
+  },
+  "readiness_reasons": {
+    "strategic_fit": "No selected eligible program or applicant",
+    "validated_need": "Users and threat defined in design; no interviews/pilot demand",
+    "technical_case": "Detailed design and constraints; no independent working-product evidence reviewed",
+    "delivery": "Module contracts are present; team/calendar/milestones absent",
+    "adoption": "No confirmed partner/dissemination/maintenance commitments",
+    "measurement": "Testable invariants specified; no measured results or field KPI plan",
+    "economics": "No budget or costs provided",
+    "communication": "Scope and residual risks clearly stated; no application narrative"
+  }
+}

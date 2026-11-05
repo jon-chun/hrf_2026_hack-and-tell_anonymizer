@@ -1,0 +1,275 @@
+[
+  {
+    "id": "otf-dcomms",
+    "dimension": 6,
+    "old": 2,
+    "new": 1,
+    "reason": "Decentralization/self-hosting alone does not establish an open-source license in cited award text"
+  },
+  {
+    "id": "otf-llm-censorship",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Censorship research alone does not establish protective tooling"
+  },
+  {
+    "id": "hrf-seedsigner",
+    "dimension": 2,
+    "old": 2,
+    "new": 1,
+    "reason": "Hardware signing suggests a local architecture; explicit offline grant scope not established in this award description"
+  },
+  {
+    "id": "os-blindbit",
+    "dimension": 2,
+    "old": 2,
+    "new": 1,
+    "reason": "Self-hosting is adjacent; offline operation is not documented in the cited description"
+  },
+  {
+    "id": "os-lawallet",
+    "dimension": 2,
+    "old": 2,
+    "new": 1,
+    "reason": "Self-hosting is adjacent; offline operation is not documented in the cited description"
+  },
+  {
+    "id": "mtf-methane",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-amw",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-algowritten",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-faireva",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-makhno",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-theirtok",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-tiktok",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-aiforensics",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-riskcheck",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-tenant",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-crossover",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-eval",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-gigbox",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "mtf-zeno",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "AI accountability/environmental transparency is not documented privacy/security protective tooling"
+  },
+  {
+    "id": "eed-stj",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "A high-risk civic/media context alone does not document protective security tooling"
+  },
+  {
+    "id": "eed-online-kherson",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "A high-risk civic/media context alone does not document protective security tooling"
+  },
+  {
+    "id": "eed-donetsk-radio",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "A high-risk civic/media context alone does not document protective security tooling"
+  },
+  {
+    "id": "eed-photojournalism",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "A high-risk civic/media context alone does not document protective security tooling"
+  },
+  {
+    "id": "eed-idp-platform",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "A high-risk civic/media context alone does not document protective security tooling"
+  },
+  {
+    "id": "eed-humanitarian-kherson",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "A high-risk civic/media context alone does not document protective security tooling"
+  },
+  {
+    "id": "eed-humanitarian-kherson",
+    "dimension": 6,
+    "old": 1,
+    "new": 0,
+    "reason": "Humanitarian benefit alone does not establish public artifact distribution"
+  },
+  {
+    "id": "eed-syrian-factchecking",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "A high-risk civic/media context alone does not document protective security tooling"
+  },
+  {
+    "id": "ned-digital-rights",
+    "dimension": 3,
+    "old": 1,
+    "new": 0,
+    "reason": "Secure communications/submissions do not document consistent reversible TEXT pseudonymization"
+  },
+  {
+    "id": "ned-info-access",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-mapping-crimes",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-mapping-crimes",
+    "dimension": 6,
+    "old": 2,
+    "new": 1,
+    "reason": "Open-source evidence/data is not necessarily reusable open-source SOFTWARE"
+  },
+  {
+    "id": "ned-independent-journalism",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-anticorruption",
+    "dimension": 3,
+    "old": 1,
+    "new": 0,
+    "reason": "Secure communications/submissions do not document consistent reversible TEXT pseudonymization"
+  },
+  {
+    "id": "ned-press-freedom",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-investigative-accountability",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-journalist-protections",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-online-civic-engagement",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-hrd-victims",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  },
+  {
+    "id": "ned-war-crimes",
+    "dimension": 1,
+    "old": 1,
+    "new": 0,
+    "reason": "Sensitive information/journalism alone does not establish a protective technical intervention"
+  }
+]

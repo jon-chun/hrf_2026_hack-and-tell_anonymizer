@@ -1,0 +1,700 @@
+{
+  "opensats": [
+    {
+      "id": "os26-formal",
+      "title": "Formal verification for Bitcoin cryptography",
+      "year": 2026,
+      "leader": "remix7531",
+      "leader_role": "Developer/researcher",
+      "purpose": "Cryptographic proofs",
+      "features": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-bitcoinerlab",
+      "title": "BitcoinerLAB and RewindBitcoin",
+      "year": 2026,
+      "leader": "Landabaso",
+      "leader_role": "Developer",
+      "purpose": "Vault wallet/toolkit",
+      "features": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Related user context",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-taproot",
+      "title": "BTCaaron and Mastering Taproot",
+      "year": 2026,
+      "leader": "Aaron Zhang",
+      "leader_role": "Developer/author",
+      "purpose": "Bilingual scripting curriculum",
+      "features": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "feature_reasons": [
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Related information workflow",
+        "Related user context",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-cdk",
+      "title": "Cashu Dev Kit — Asmo",
+      "year": 2026,
+      "leader": "Asmo",
+      "leader_role": "Developer",
+      "purpose": "Mint infrastructure",
+      "features": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "Local/self-hosted adjacent",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-cashuts",
+      "title": "Cashu TS and Coco",
+      "year": 2026,
+      "leader": "Egge",
+      "leader_role": "Maintainer",
+      "purpose": "Ecash libraries",
+      "features": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-krux",
+      "title": "Krux-Installer — joazinhom",
+      "year": 2026,
+      "leader": "joazinhom",
+      "leader_role": "Developer",
+      "purpose": "Air-gapped signer installer",
+      "features": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "Explicit local/offline component",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-libbitcoin",
+      "title": "Libbitcoin v4 — pmienk",
+      "year": 2026,
+      "leader": "pmienk",
+      "leader_role": "Developer",
+      "purpose": "Independent node toolkit",
+      "features": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-noah",
+      "title": "Noah",
+      "year": 2026,
+      "leader": "Hampus Sjöberg",
+      "leader_role": "Developer",
+      "purpose": "Private self-custodial wallet",
+      "features": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "Local/self-hosted adjacent",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os26-rustbitcoin",
+      "title": "Rust-Bitcoin — mpbagot",
+      "year": 2026,
+      "leader": "mpbagot",
+      "leader_role": "Developer",
+      "purpose": "Protocol libraries",
+      "features": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/sixteenth-wave-of-bitcoin-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os25-yakihonne",
+      "title": "YakiHonne",
+      "year": 2025,
+      "leader": "YakiHonne team",
+      "leader_role": "Implementer; individual lead unpublished",
+      "purpose": "Offline-first long-form publishing",
+      "features": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "Explicit local/offline component",
+        "No match documented in cited description",
+        "Document/text workflow",
+        "Related user context",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/fourteenth-wave-of-nostr-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os25-quartz",
+      "title": "Quartz",
+      "year": 2025,
+      "leader": "KotlinGeekDev/Quartz",
+      "leader_role": "Library implementer; individual lead unpublished",
+      "purpose": "Multiplatform Nostr library",
+      "features": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Related information workflow",
+        "No match documented in cited description",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/fourteenth-wave-of-nostr-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "os25-feedz",
+      "title": "Nostr Feedz",
+      "year": 2025,
+      "leader": "PlebOne",
+      "leader_role": "Author/maintainer",
+      "purpose": "Long-form feed/relay services",
+      "features": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "Local/self-hosted adjacent",
+        "No match documented in cited description",
+        "Document/text workflow",
+        "Related user context",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://opensats.org/blog/fourteenth-wave-of-nostr-grants"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    }
+  ],
+  "hrf-bdf": [
+    {
+      "id": "hrf-mostro",
+      "title": "Mostro",
+      "year": 2025,
+      "leader": "Catrya",
+      "leader_role": "Developer",
+      "purpose": "Private Bitcoin exchange",
+      "features": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "At-risk civic users",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://hrf.org/latest/hrf-grants-800-million-satoshis-to-22-freedom-tech-projects-worldwide/"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "hrf-sudabit",
+      "title": "SudaBit",
+      "year": 2025,
+      "leader": "Sudan Hodl",
+      "leader_role": "Developer",
+      "purpose": "Sudanese financial access",
+      "features": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "feature_reasons": [
+        "Protective architecture adjacent",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "At-risk civic users",
+        "Public outputs"
+      ],
+      "sources": [
+        "https://hrf.org/latest/hrf-grants-800-million-satoshis-to-22-freedom-tech-projects-worldwide/"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "hrf-pidgin-anambra",
+      "title": "Bitcoin Pidgin & Bitcoin Anambra",
+      "year": 2025,
+      "leader": "Kester Ejikeme",
+      "leader_role": "Education initiative leader",
+      "purpose": "Local-language financial education",
+      "features": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "feature_reasons": [
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Related information workflow",
+        "At-risk civic users",
+        "Public outputs"
+      ],
+      "sources": [
+        "https://hrf.org/latest/hrf-grants-800-million-satoshis-to-22-freedom-tech-projects-worldwide/"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "hrf-satoshi-circle",
+      "title": "Satoshi Sister Circle",
+      "year": 2025,
+      "leader": "Charlene Fairepo",
+      "leader_role": "Founder",
+      "purpose": "African women mentorship",
+      "features": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "feature_reasons": [
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "At-risk civic users",
+        "Public outputs"
+      ],
+      "sources": [
+        "https://hrf.org/latest/hrf-grants-800-million-satoshis-to-22-freedom-tech-projects-worldwide/"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    }
+  ],
+  "otf": [
+    {
+      "id": "otf-globaleaks",
+      "title": "GlobaLeaks — product maturity",
+      "year": 2017,
+      "leader": "GlobaLeaks",
+      "leader_role": "Project; individual grant lead unpublished",
+      "purpose": "Secure submissions",
+      "features": [
+        2,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "Local/self-hosted adjacent",
+        "No match documented in cited description",
+        "Document/text workflow",
+        "At-risk civic users",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://public.opentech.fund/documents/FY2017_OTF_Annual_Report.pdf",
+        "https://globaleaks.org/faqs/"
+      ],
+      "amount": "USD 109,167",
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "otf-securedrop-audit",
+      "title": "SecureDrop — sponsored security audit",
+      "year": 2024,
+      "leader": "Freedom of the Press Foundation; 7ASecurity",
+      "leader_role": "Project manager organization; audit provider",
+      "purpose": "Whistleblower document security",
+      "features": [
+        2,
+        2,
+        0,
+        2,
+        2,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "Explicit local/offline component",
+        "No match documented in cited description",
+        "Document/text workflow",
+        "At-risk civic users",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://www.opentech.fund/security-safety-audits/securedrop-security-audit/",
+        "https://securedrop.org/news/securedrop-completes-sixth-security-audit/"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Security Lab sponsored audit; not cash development grant"
+    },
+    {
+      "id": "otf-tails-sustain",
+      "title": "Tails Sustainability",
+      "year": 2023,
+      "leader": "Tor Project (as listed in report)",
+      "leader_role": "Implementer",
+      "purpose": "Private operating-system maintenance",
+      "features": [
+        2,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "Local/self-hosted adjacent",
+        "No match documented in cited description",
+        "Related information workflow",
+        "At-risk civic users",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://www.opentech.fund/wp-content/uploads/2025/11/OTF-Annual-Report-FY-2023-Accessible-PDF.pdf"
+      ],
+      "amount": "USD 382,310",
+      "funder_people": "Individual award selector not publicly established",
+      "program": "FOSS Sustainability Fund"
+    },
+    {
+      "id": "otf-reprobuilds",
+      "title": "Reproducible Builds Sustainability",
+      "year": 2023,
+      "leader": "Software Freedom Conservancy",
+      "leader_role": "Implementer",
+      "purpose": "Verifiable software supply chain",
+      "features": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Related user context",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://www.opentech.fund/wp-content/uploads/2025/11/OTF-Annual-Report-FY-2023-Accessible-PDF.pdf"
+      ],
+      "amount": "USD 306,000",
+      "funder_people": "Individual award selector not publicly established",
+      "program": "FOSS Sustainability Fund"
+    },
+    {
+      "id": "otf-wechatscope",
+      "title": "WeChatScope",
+      "year": 2017,
+      "leader": "Project organization/individual lead not established",
+      "leader_role": "Not established",
+      "purpose": "Censored-text research",
+      "features": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      "feature_reasons": [
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Document/text workflow",
+        "At-risk civic users",
+        "Public outputs"
+      ],
+      "sources": [
+        "https://public.opentech.fund/documents/FY2017_OTF_Annual_Report.pdf"
+      ],
+      "amount": "USD 122,000",
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Publicly documented grant/project support"
+    },
+    {
+      "id": "otf-matrix-audit",
+      "title": "Matrix Olm — supported cryptography review",
+      "year": 2016,
+      "leader": "Matrix; NCC Group Cryptography Services",
+      "leader_role": "Project; audit provider",
+      "purpose": "Messaging cryptography review",
+      "features": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "No match documented in cited description",
+        "No match documented in cited description",
+        "Related information workflow",
+        "Related user context",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://www.opentech.fund/impact/security-safety-audits/"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "Financial support for security audit; not development-grant claim"
+    },
+    {
+      "id": "otf-dangerzone-audit",
+      "title": "Dangerzone — security assessment",
+      "year": 2023,
+      "leader": "Dangerzone project; audit provider identified in report",
+      "leader_role": "Project/security assessment",
+      "purpose": "Document-conversion security",
+      "features": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "feature_reasons": [
+        "Protective security purpose",
+        "Local/self-hosted adjacent",
+        "No match documented in cited description",
+        "Document/text workflow",
+        "Related user context",
+        "Explicit reusable open-source artifact"
+      ],
+      "sources": [
+        "https://www.opentech.fund/wp-content/uploads/2024/06/OTF_-_2023_Q4_Dangerzone_Final_Report-1-2.pdf"
+      ],
+      "amount": null,
+      "funder_people": "Individual award selector not publicly established",
+      "program": "OTF security assessment; cash grant amount unknown"
+    }
+  ]
+}

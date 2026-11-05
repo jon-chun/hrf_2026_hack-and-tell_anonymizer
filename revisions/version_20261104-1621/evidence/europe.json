@@ -1,0 +1,1949 @@
+{
+  "funders": [
+    {
+      "name": "European Commission Creative Europe",
+      "slug": "creative-europe",
+      "programs": [
+        "Journalism Partnerships — Collaborations",
+        "Journalism Partnerships — Pluralism"
+      ],
+      "criteria": [
+        {
+          "claim": "Transnational media collaboration and sector resilience; awards reviewed by independent experts.",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/second-set-eu-supported-journalism-partnerships-help-wider-news-sector"
+        },
+        {
+          "claim": "Distinct collaboration and intermediary/regranting tracks; preserve editorial independence.",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+        }
+      ],
+      "people": [
+        {
+          "name": "Independent external experts (not named)",
+          "role": "Proposal evaluators",
+          "period": "2022 call; results announced 2023",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/second-set-eu-supported-journalism-partnerships-help-wider-news-sector",
+          "selection_role_known": true
+        }
+      ],
+      "eligibility": [
+        {
+          "claim": "2025 Collaborations call requires at least three partners in three participating countries; historical call, not verified open now.",
+          "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2025"
+        }
+      ],
+      "communication_advice": [
+        {
+          "advice": "Present a cross-border newsroom workflow, shared adoption and sector benefit; do not pitch an isolated software build as a ready consortium.",
+          "evidence_url": "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced",
+          "inference": true
+        }
+      ],
+      "limitations": "Purposive 20-award sample: nine 2024-call projects, eight 2023-call projects, and three relevant 2022-call projects. Announcement year differs from call year. Consortium organizations documented; individual project managers and selecting evaluators not disclosed. EC upstream awards to IJ4EU/Journalismfund are not independent replications of their downstream awards.",
+      "awards": [
+        {
+          "id": "CE24-1",
+          "title": "MEDEXCHANGE24",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 1,086,601",
+          "leader": "Salomon and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Media asset exchange",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "No match documented in cited award description",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "CE24-2",
+          "title": "ENACT",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 774,609",
+          "leader": "RTV Slovenija and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Accessible audiovisual news",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE24-3",
+          "title": "NEXT-IJ",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 1,086,601",
+          "leader": "OCCRP; Universita del Sacro Cuore; GFMD",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Investigative data tools",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE24-4",
+          "title": "MOST",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 1,199,547",
+          "leader": "OBCT and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Transnational journalism exchange",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE24-5",
+          "title": "CARL",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 691,355",
+          "leader": "Czech Video Centre and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Media data skills",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "No match documented in cited award description",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "CE24-6",
+          "title": "LIMENET",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 1,464,300",
+          "leader": "Media Diversity Institute Western Balkans and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Local media resilience",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE24-7",
+          "title": "PM4D",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 2,143,414",
+          "leader": "Journalismfund Europe; International Media Support",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Pluralism regranting",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE24-8",
+          "title": "MEDIA RESILIENCE",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 1,999,955",
+          "leader": "Open Society Institute Foundation Bulgaria and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Media pluralism grants",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE24-9",
+          "title": "JOURNALISM & SCIENCE ALLIANCE",
+          "program": "Journalism Partnerships — 2024 call",
+          "year": "2025 announcement",
+          "amount": "EUR 2,731,930",
+          "leader": "Nova University Lisbon; European Journalism Centre",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Science-backed investigations",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/winners-fourth-call-proposals-journalism-partnerships-announced"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE23-1",
+          "title": "MIE",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 1,756,298",
+          "leader": "International Press Institute and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Media innovation support",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE23-2",
+          "title": "EthProMedE",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 800,423",
+          "leader": "Latvijas Mediji and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Professional journalism capacity",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE23-3",
+          "title": "Do-Jo",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 1,100,832",
+          "leader": "WorldCrunch and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Shared donation infrastructure",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "CE23-4",
+          "title": "SoJo Europe",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 1,300,367",
+          "leader": "Transitions; Journalismfund Europe and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Solutions journalism mentoring",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE23-5",
+          "title": "IJ4EU",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 2,996,542",
+          "leader": "IPI; EJC; ECPMF; Arena",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Cross-border investigation support",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            1,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "Privacy/security purpose — adjacent match",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE23-6",
+          "title": "PluPro",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 2,998,031",
+          "leader": "Journalismfund Europe; Transitions",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Investigation grants",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE23-7",
+          "title": "S-INFO",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 492,989",
+          "leader": "Tele Radio City and consortium",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Journalist capacity building",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE23-8",
+          "title": "Balkan Watchers",
+          "program": "Journalism Partnerships — 2023 call",
+          "year": "2024 announcement",
+          "amount": "EUR 501,058",
+          "leader": "Balkan Documentary Center",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Films and podcasts",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/third-generation-eu-supported-journalism-partnerships-ready-help-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE22-1",
+          "title": "CIJI2",
+          "program": "Journalism Partnerships — 2022 call",
+          "year": "2023 announcement",
+          "amount": "EUR 2,388,989",
+          "leader": "Consortium; individual lead not disclosed",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Multilingual media methods",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/second-set-eu-supported-journalism-partnerships-help-wider-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE22-2",
+          "title": "CJEGC",
+          "program": "Journalism Partnerships — 2022 call",
+          "year": "2023 announcement",
+          "amount": "EUR 2,000,122",
+          "leader": "ICIJ and three partners",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Collaborative investigation tools",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/second-set-eu-supported-journalism-partnerships-help-wider-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "CE22-3",
+          "title": "Monetising Value",
+          "program": "Journalism Partnerships — 2022 call",
+          "year": "2023 announcement",
+          "amount": "EUR 519,896",
+          "leader": "Arena for Journalism",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Independent media sustainability",
+          "sources": [
+            "https://digital-strategy.ec.europa.eu/en/news/second-set-eu-supported-journalism-partnerships-help-wider-news-sector"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Society Foundations",
+      "slug": "open-society",
+      "programs": [
+        "Organization/project grants",
+        "Soros Justice Fellowships (historical cohort)"
+      ],
+      "criteria": [
+        {
+          "claim": "Democratic practice, rights, dignity, equitable governance; relationship-based organization support.",
+          "url": "https://www.opensocietyfoundations.org/how-we-work/how-we-fund"
+        },
+        {
+          "claim": "Soros Justice has a specific US criminal legal reform remit, not a generic software program.",
+          "url": "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+        }
+      ],
+      "people": [
+        {
+          "name": "Mary Fitzgerald",
+          "role": "Director Information Democracy appointed 2021; Director Expression in 2023",
+          "period": "2021/2023 publications",
+          "url": "https://www.opensocietyfoundations.org/newsroom/open-society-names-mary-fitzgerald-to-lead-information-democracy-work",
+          "selection_role_known": false
+        },
+        {
+          "name": "Christina Voight; Adam Culbreath",
+          "role": "Senior program manager; senior team manager, Open Society–US",
+          "period": "2024 cohort announcement",
+          "url": "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows",
+          "selection_role_known": false
+        },
+        {
+          "name": "Binaifer Nowrojee; Mark Malloch-Brown",
+          "role": "Incoming president; departing president",
+          "period": "June 2024 leadership transition announced March 2024",
+          "url": "https://www.opensocietyfoundations.org/newsroom/binaifer-nowrojee-appointed-new-president-of-open-society-foundations-mark-malloch-brown-to-step-down",
+          "selection_role_known": false
+        }
+      ],
+      "eligibility": [
+        {
+          "claim": "Most organization grants originate through direct approaches by OSF; program-specific access must be checked.",
+          "url": "https://www.opensocietyfoundations.org/how-we-work/how-we-fund"
+        }
+      ],
+      "communication_advice": [
+        {
+          "advice": "Start with rights beneficiaries and organizational capacity, then substantiate how technical work changes their practical ability to act safely.",
+          "evidence_url": "https://www.opensocietyfoundations.org/voices/how-expression-inspires-change",
+          "inference": true
+        }
+      ],
+      "limitations": "Twenty purposively selected awards across different programs and years, not representative frequency estimates: eight 2024 Justice projects, eight 2016 Hungarian grants, four grantee-disclosed grants. Database failed in web tool. Historical staff titles are not current contact recommendations; selecting staff undisclosed. No inference that an old regional program remains open.",
+      "awards": [
+        {
+          "id": "OSFJ24-1",
+          "title": "Temi Mwale — Technology and state harm",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Temi Mwale",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Technology and state harm",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFJ24-2",
+          "title": "Kelly Davis — Incarcerated pregnancy research",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Kelly Davis",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Incarcerated pregnancy research",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFJ24-3",
+          "title": "Lauren Faraino — Organ harvesting investigation",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Lauren Faraino",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Organ harvesting investigation",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFJ24-4",
+          "title": "Laverne Thompson — Community justice archive",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Laverne Thompson",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Community justice archive",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFJ24-5",
+          "title": "Tijanna Eaton — Incarcerated authors support",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Tijanna Eaton",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Incarcerated authors support",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFJ24-6",
+          "title": "Elizabeth Kennedy — Deportee research",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Elizabeth Kennedy",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Deportee research",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFJ24-7",
+          "title": "Claudia Muñoz-Castellano — Immigrant legal empowerment",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Claudia Muñoz-Castellano",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Immigrant legal empowerment",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFJ24-8",
+          "title": "Nia Lee — Justice-impacted community dialogue",
+          "program": "Soros Justice Fellowships",
+          "year": 2024,
+          "amount": "Individual amount undisclosed; cohort range USD 100,000–140,000",
+          "leader": "Nia Lee",
+          "leader_role": "Named fellow/project lead",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Justice-impacted community dialogue",
+          "sources": [
+            "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-announce-2024-soros-justice-fellows"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFH16-1",
+          "title": "Central European University — Aaron Swartz fellowship",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 10,000",
+          "leader": "Central European University — Aaron Swartz fellowship",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Digital evidence research",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            1,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "Privacy/security purpose — adjacent match",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFH16-2",
+          "title": "Direkt36",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 50,500",
+          "leader": "Direkt36",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Donor communications infrastructure",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "OSFH16-3",
+          "title": "Hungarian Women's Lobby",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 24,999",
+          "leader": "Hungarian Women's Lobby",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Journalist toolkit",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFH16-4",
+          "title": "TILOS Kulturális Foundation",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 25,000",
+          "leader": "TILOS Kulturális Foundation",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Radio audience sustainability",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "OSFH16-5",
+          "title": "Verzió Film Foundation",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 100,000",
+          "leader": "Verzió Film Foundation",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Human rights documentary outreach",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFH16-6",
+          "title": "Hungarian Civil Liberties Union — core",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 365,500",
+          "leader": "Hungarian Civil Liberties Union — core",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Fundamental rights advocacy",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFH16-7",
+          "title": "Hungarian Helsinki Committee",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 610,000",
+          "leader": "Hungarian Helsinki Committee",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Asylum and detention rights",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSFH16-8",
+          "title": "Televele Médiapedagógiai Műhely Association",
+          "program": "Hungarian grants — OSF network",
+          "year": 2016,
+          "amount": "USD 13,900",
+          "leader": "Televele Médiapedagógiai Műhely Association",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Media freedom education",
+          "sources": [
+            "https://www.opensocietyfoundations.org/uploads/f6701cde-300a-4d8a-adf3-e6ee2e47266a/open-society-hungarian-grantees-en-20170303.pdf"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — adjacent match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSF-FC23",
+          "title": "Factchequeado — Latino misinformation response",
+          "program": "Project grant",
+          "year": 2023,
+          "amount": "USD 250,000",
+          "leader": "Factchequeado",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Spanish-language news collaboration",
+          "sources": [
+            "https://factchequeado.com/institucional/20240823/open-society-foundation-grant/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — central match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSF-AN-1",
+          "title": "Access Now — Core Organizational Support",
+          "program": "OSF grant disclosed by recipient",
+          "year": "November 2025",
+          "amount": "USD 1,200,000",
+          "leader": "Access Now",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Core Organizational Support",
+          "sources": [
+            "https://www.accessnow.org/financials/"
+          ],
+          "features": [
+            1,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "Privacy/security purpose — adjacent match",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSF-AN-2",
+          "title": "Access Now — Program Support — MENA",
+          "program": "OSF grant disclosed by recipient",
+          "year": "September 2023",
+          "amount": "USD 75,000",
+          "leader": "Access Now",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Program Support — MENA",
+          "sources": [
+            "https://www.accessnow.org/financials/"
+          ],
+          "features": [
+            1,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "Privacy/security purpose — adjacent match",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        },
+        {
+          "id": "OSF-AN-3",
+          "title": "Access Now — Program Support — Asia Pacific",
+          "program": "OSF grant disclosed by recipient",
+          "year": "January 2023",
+          "amount": "USD 700,000",
+          "leader": "Access Now",
+          "leader_role": "Individual project lead not disclosed; organization/cohort identified",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Program Support — Asia Pacific",
+          "sources": [
+            "https://www.accessnow.org/financials/"
+          ],
+          "features": [
+            1,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "feature_reasons": [
+            "Privacy/security purpose — adjacent match",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "Open/public distribution — adjacent match"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ECPMF / Media Freedom Rapid Response",
+      "slug": "ecpmf-mfrr",
+      "programs": [
+        "Journalists-in-Residence Germany",
+        "MFRR support; distinguish historical JiR cohorts"
+      ],
+      "criteria": [
+        {
+          "claim": "JiR provides temporary safety and recovery for threatened media professionals.",
+          "url": "https://www.ecpmf.eu/support/journalists-in-residence/"
+        },
+        {
+          "claim": "Historical 2020 call emphasizes verified threat related to journalistic work and confidential application.",
+          "url": "https://www.ecpmf.eu/wp-content/uploads/2020/04/Final-3-JiR-call-2020.pdf"
+        }
+      ],
+      "people": [
+        {
+          "name": "Alina Toropova",
+          "role": "JiR Programme Manager; Shelter City Leipzig coordinator",
+          "period": "2025 public interview; joined ECPMF in 2020",
+          "url": "https://sheltercity.org/shelter-city-leipzig-is-opening-its-doors-to-journalists-at-risk/",
+          "selection_role_known": false
+        }
+      ],
+      "eligibility": [
+        {
+          "claim": "Applicant must be an eligible journalist under threat, with references and language/residency conditions; check specific call.",
+          "url": "https://www.ecpmf.eu/support/journalists-in-residence/"
+        }
+      ],
+      "communication_advice": [
+        {
+          "advice": "For JiR, communicate verified need for temporary relocation and professional continuity. A software-development request requires a different program, partner or procurement route.",
+          "evidence_url": "https://www.ecpmf.eu/support/journalists-in-residence/",
+          "inference": true
+        }
+      ],
+      "limitations": "Twenty publicly named alumni support cases, not 20 software grants. Gallery verifies participation but often not individual year, amount or project deliverable. Names are already publicly disclosed; no deanonymization attempted. This cohort is intentionally a program-type counterexample, not technology comparables. Gallery ordering is not award date or priority.",
+      "awards": [
+        {
+          "id": "ECPMF-1",
+          "title": "Iryna Avramenko — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Iryna Avramenko",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-2",
+          "title": "Aylin Kaplan — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Aylin Kaplan",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-3",
+          "title": "Özgür Sevinç Şimşek — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Özgür Sevinç Şimşek",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-4",
+          "title": "Vartan Estukyan — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Vartan Estukyan",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-5",
+          "title": "Gunel Safarova — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Gunel Safarova",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-6",
+          "title": "Blaž Zgaga — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Blaž Zgaga",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-7",
+          "title": "Yeşim Özdemir — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Yeşim Özdemir",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-8",
+          "title": "Michelle Demishevich — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": "2017/2018",
+          "amount": "Individual amount not published",
+          "leader": "Michelle Demishevich",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/",
+            "https://archive.ecpmf.eu/help-for-journalists/journalists-in-residence/alumni/michelle-demishevich.html"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-9",
+          "title": "Ayşegül Başar — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Ayşegül Başar",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-10",
+          "title": "Parvana Gurbanlı — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Parvana Gurbanlı",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-11",
+          "title": "Ekaterine Basilaia — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Ekaterine Basilaia",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-12",
+          "title": "Fatma Edemen — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Fatma Edemen",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-13",
+          "title": "Armağan Kabaklı — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Armağan Kabaklı",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-14",
+          "title": "Volha Shukaila — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": 2021,
+          "amount": "Individual amount not published",
+          "leader": "Volha Shukaila",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-15",
+          "title": "Sorin Ozon — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Sorin Ozon",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-16",
+          "title": "Matthew Caruana Galizia — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Matthew Caruana Galizia",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-17",
+          "title": "Ceren Bayar — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Ceren Bayar",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-18",
+          "title": "Abbas Vural — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Abbas Vural",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-19",
+          "title": "Rabia Yilmaz — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": null,
+          "amount": "Individual amount not published",
+          "leader": "Rabia Yilmaz",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        },
+        {
+          "id": "ECPMF-20",
+          "title": "Sami Menteş — JiR support",
+          "program": "Journalists-in-Residence",
+          "year": "2023/2024",
+          "amount": "Individual amount not published",
+          "leader": "Sami Menteş",
+          "leader_role": "Publicly named fellow/media professional",
+          "funder_people": "Individual selection responsibility not disclosed",
+          "purpose": "Temporary journalist support",
+          "sources": [
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/",
+            "https://www.ecpmf.eu/support/journalists-in-residence/jir-alumni/sami-mentes/"
+          ],
+          "features": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "feature_reasons": [
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "No match documented in cited award description",
+            "Journalistic/civic information workflow — adjacent match",
+            "Civic or marginalized users — central match",
+            "No match documented in cited award description"
+          ]
+        }
+      ]
+    }
+  ]
+}

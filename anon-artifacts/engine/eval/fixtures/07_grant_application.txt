@@ -1,0 +1,26 @@
+GRANT APPLICATION: Safe documentation for survivors
+
+Applicant: Lantern Rights Collective
+Contact person: Yusuf Brandvold, Programme Director
+Email: yusuf.brandvold@lantern-rights.example
+Telephone: +1 415 555 0132
+Postal address: 88 Tannery Lane, Ostermark
+
+1. Summary of need
+Survivors of enforced disappearance in the northern district often lack safe ways to record what happened. We propose a two-year programme that trains community paralegals, provides encrypted devices and pays for medical documentation. Our partner clinic in Kellmouth, led by Dr. Kasimir Dobrev, will supervise the legal review.
+
+2. Activities
+- Train forty paralegals in trauma-aware interviewing.
+- Build a secure case system. The vendor contact is Ines Calloway-Mbeki and the hosting account was created on 18 September 2024.
+- Publish an anonymised annual report.
+
+3. Risks and safeguards
+All interview files are pseudonymised before they are shared. We note one particular risk: a former detainee who is now a retired magistrate has agreed to advise us, so we ask reviewers not to circulate her biography.
+
+4. Budget
+Total request: 184,000 euros over 24 months, with 60 percent for staff and training. Payments should be sent to IBAN FR14 2004 1010 0505 0001 3M02 606, held by the Collective. Applicant representative Yusuf Brandvold, passport number X5530981, has signing authority. A test card used for the payment platform is 378282246310005.
+
+5. Systems
+The grant portal login for our team is password = "Orchard-Gate-9921". The upload service key is AKIAI44QH8DHBEXAMPLE.
+
+Signed on 30 April 2025.

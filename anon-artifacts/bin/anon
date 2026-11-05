@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Runs the anon3pass CLI. Uses the project venv directly when it exists, which also avoids
+# depending on a uv cache that may sit on an unmounted volume.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+if [ -x "$ROOT/engine/.venv/bin/anon" ]; then
+  exec "$ROOT/engine/.venv/bin/anon" "$@"
+fi
+exec uv run --quiet --project "$ROOT/engine" anon "$@"

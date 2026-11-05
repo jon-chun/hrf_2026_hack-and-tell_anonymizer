@@ -1,0 +1,179 @@
+{
+  "neighborhood": [
+    "otf-securedrop-audit",
+    "otf-globaleaks",
+    "otf-mapeo",
+    "otf-dcomms",
+    "ned-anticorruption",
+    "otf-qaul",
+    "otf-rcbox",
+    "otf-dangerzone-audit"
+  ],
+  "revisions": [
+    {
+      "id": "R-NEED",
+      "factor": "validated_need",
+      "gap_fraction": 0.75,
+      "confidence": 0.9,
+      "effort": 1,
+      "title": "Name the user, threatened information and workflow; validate demand",
+      "supports": [
+        "otf-securedrop-audit",
+        "otf-globaleaks",
+        "otf-mapeo",
+        "otf-dcomms",
+        "ned-anticorruption",
+        "otf-qaul",
+        "otf-rcbox",
+        "otf-dangerzone-audit"
+      ],
+      "change": "Add one specific user group/country, the sensitive documents they handle, the adversary and current workaround. Obtain consent-safe interviews or a partner request. Treat intended civic users in the spec as a hypothesis until validated.",
+      "check": "At least one inspectable demand artifact and a clear harm → workflow → intervention chain; publish no sensitive identities.",
+      "lesson": "The selected precedents explicitly protect civic/source/communication workflows. This supports user-specific framing, not a claim their applications contained demand validation.",
+      "criterion_url": "https://www.opentech.fund/",
+      "status": "Inference + known baseline evidence gap"
+    },
+    {
+      "id": "R-PLAN",
+      "factor": "delivery",
+      "gap_fraction": 0.75,
+      "confidence": 0.85,
+      "effort": 1,
+      "title": "Turn module contracts into a costed delivery plan",
+      "supports": [
+        "otf-dcomms",
+        "otf-rcbox",
+        "otf-globaleaks"
+      ],
+      "change": "Add accountable lead, team experience, calendar, dependencies and milestone acceptance criteria: minimum local prototype, independent review, partner pilot, stable release and maintenance handover. Choose actual duration and staffing instead of invented commitments.",
+      "check": "Each milestone has owner, date, deliverable, verification and cost; claimed team availability is confirmed.",
+      "lesson": "The dated deployment/product-maturity awards demonstrate bounded funded work. They do not reveal the original application schedule.",
+      "criterion_url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2025",
+      "status": "Inference + known baseline evidence gap"
+    },
+    {
+      "id": "R-DIFF",
+      "factor": "technical_case",
+      "gap_fraction": 0.5,
+      "confidence": 0.95,
+      "effort": 1,
+      "title": "Explain the tool's distinct place beside secure-submission systems",
+      "supports": [
+        "otf-securedrop-audit",
+        "otf-globaleaks",
+        "ned-anticorruption"
+      ],
+      "change": "Add a workflow diagram showing where sensitive text enters, what is transformed, where the key/map lives, who can restore it, and what optional QA sends off-device. Compare content pseudonymization with secure transport, document isolation and metadata removal. Do not claim those are interchangeable.",
+      "check": "Each claimed improvement has a testable baseline comparison; restoration rights and residual context risks are explicit.",
+      "lesson": "SecureDrop/GlobaLeaks protect document receipt/handling. Neither establishes a funded reversible-pseudonymization mechanism in this sample.",
+      "criterion_url": "https://www.opentech.fund/security-safety-audits/securedrop-security-audit/",
+      "status": "Mechanism gap analysis"
+    },
+    {
+      "id": "R-KPI",
+      "factor": "measurement",
+      "gap_fraction": 0.75,
+      "confidence": 0.9,
+      "effort": 2,
+      "title": "Replace broad safety claims with a privacy–utility–adoption evaluation plan",
+      "supports": [
+        "otf-securedrop-audit",
+        "otf-dangerzone-audit",
+        "otf-dcomms"
+      ],
+      "change": "Add the KPI plan below with baseline, denominator, test corpus, target-setting process, independent reviewer and measurement date. Report per-language/entity failure rates rather than one aggregate accuracy number.",
+      "check": "Targets are agreed after baseline measurement; privacy misses and utility failures are both reported with uncertainty.",
+      "lesson": "Sponsored assessments and usability-focused deployment support motivate inspectable evaluation. Exact KPI thresholds are analyst recommendations, not inferred winning thresholds.",
+      "criterion_url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
+      "status": "Method recommendation; no results supplied"
+    },
+    {
+      "id": "R-AUDIT",
+      "factor": "measurement",
+      "gap_fraction": 0.75,
+      "confidence": 0.95,
+      "effort": 3,
+      "title": "Budget independent security and restoration review",
+      "supports": [
+        "otf-securedrop-audit",
+        "otf-dangerzone-audit"
+      ],
+      "change": "Include external review of key/map access, storage/log exposure, restoration correctness, surrogate collisions, QA export boundaries and adversarial context inference; document remediation and retest. Separate local-only deployment from optional cloud modes.",
+      "check": "Reviewer scope, cost and deliverables are explicit; no independent validation claim until the report exists.",
+      "lesson": "These are sponsored assessment precedents, a different instrument from a cash development award.",
+      "criterion_url": "https://securedrop.org/news/securedrop-completes-sixth-security-audit/",
+      "status": "Safety-validation recommendation"
+    },
+    {
+      "id": "R-ADOPT",
+      "factor": "adoption",
+      "gap_fraction": 1,
+      "confidence": 0.85,
+      "effort": 2,
+      "title": "Secure a pilot and a maintenance/adoption owner",
+      "supports": [
+        "otf-globaleaks",
+        "otf-dcomms",
+        "otf-qaul",
+        "otf-mapeo"
+      ],
+      "change": "Add an eligible partner's confirmed pilot workflow, integration owner, onboarding/support responsibilities and a post-grant maintenance plan. Specify language/hardware constraints and safe training materials.",
+      "check": "Pilot commitment and maintenance responsibility documented; field use has a consent and feedback plan.",
+      "lesson": "Product maturity, easy deployment and usability recur in close technical comparators. Actual partner commitments remain a proposal requirement to obtain.",
+      "criterion_url": "https://www.opentech.fund/projects-we-support/supported-projects/dcomms/",
+      "status": "Unknown proposal evidence, not established defect"
+    },
+    {
+      "id": "R-BUDGET",
+      "factor": "economics",
+      "gap_fraction": 1,
+      "confidence": 0.95,
+      "effort": 1,
+      "title": "Supply a transparent activity-linked budget and ask",
+      "supports": [],
+      "change": "State requested amount, duration, rates, work allocation, audit/user-research costs, accessible deployment and maintenance. Show any co-financing only when the selected call requires it.",
+      "check": "Every cost maps to a deliverable and an eligible cost category; totals reconcile with the funding request.",
+      "lesson": "Public award amounts are not original budget evidence. This revision rests on official application criteria, so historical-neighbor support is deliberately zero.",
+      "criterion_url": "https://fij.org/grants-faq/",
+      "status": "Unknown proposal evidence; criterion-led"
+    },
+    {
+      "id": "R-OPEN",
+      "factor": "adoption",
+      "gap_fraction": 1,
+      "confidence": 0.9,
+      "effort": 1,
+      "title": "Make open release concrete while protecting real data",
+      "supports": [
+        "otf-globaleaks",
+        "otf-mapeo",
+        "otf-qaul",
+        "ned-anticorruption",
+        "otf-securedrop-audit"
+      ],
+      "change": "Specify the deliverable code/license, release tags, install documentation, synthetic benchmarks and public remediation notes. Keep source documents, keys and restoration maps out of shared artifacts.",
+      "check": "Public artifacts are usable without the sensitive corpus; an owner is assigned for releases and support.",
+      "lesson": "These precedents explicitly expose reusable tools. Open distribution strengthens reuse; it does not make confidential beneficiary data publishable.",
+      "criterion_url": "https://opensats.org/apply",
+      "status": "Conditional criterion: exact license rules vary by funder"
+    },
+    {
+      "id": "R-VOICE",
+      "factor": "communication",
+      "gap_fraction": 0.5,
+      "confidence": 0.9,
+      "effort": 1,
+      "title": "Write the abstract around a bounded user outcome",
+      "supports": [
+        "otf-securedrop-audit",
+        "otf-globaleaks",
+        "otf-dcomms"
+      ],
+      "change": "Use a plain-language problem, mechanism, deliverable, beneficiary outcome and ask. Say pseudonymization where mapping exists. State local/cloud boundaries, expected failure modes and human review rather than absolute anonymity or quantified funding odds.",
+      "check": "A reader can identify who benefits, how, what will be delivered and what remains risky in one paragraph.",
+      "lesson": "The strongest analogues describe a specific protective workflow, not a generic claim about AI or privacy.",
+      "criterion_url": "https://www.opentech.fund/projects-we-support/supported-projects/dcomms/",
+      "status": "Editorial inference"
+    }
+  ]
+}

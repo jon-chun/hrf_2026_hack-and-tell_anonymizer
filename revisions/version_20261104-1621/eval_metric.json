@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "status": "analyst-defined decision aid; not learned selection model",
+  "similarity": {
+    "feature_names": [
+      "privacy_security_tooling",
+      "local_offline_operation",
+      "consistent_reversible_text_pseudonymization",
+      "long_form_journalistic_civic_text_workflow",
+      "vulnerable_civic_users",
+      "open_source_public_good_distribution"
+    ],
+    "weights": [
+      25,
+      15,
+      20,
+      15,
+      15,
+      10
+    ],
+    "scale": [
+      0,
+      1,
+      2
+    ],
+    "missing": null,
+    "baseline": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "method": "weighted normalized L1 distance; missing dimensions produce conservative score bounds; no observed-only renormalization"
+  },
+  "readiness": {
+    "weights": {
+      "strategic_fit": 20,
+      "validated_need": 15,
+      "technical_case": 15,
+      "delivery": 15,
+      "adoption": 10,
+      "measurement": 10,
+      "economics": 10,
+      "communication": 5
+    },
+    "scale": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "missing": null
+  },
+  "sensitivity": {
+    "uniform": [
+      16.666666666666668,
+      16.666666666666668,
+      16.666666666666668,
+      16.666666666666668,
+      16.666666666666668,
+      16.666666666666668
+    ],
+    "civic": [
+      15,
+      10,
+      15,
+      20,
+      25,
+      15
+    ]
+  },
+  "gap_priority": {
+    "formula": "criterion_weight * gap_fraction * (0.5 + 0.5 * neighbor_support) * evidence_confidence / effort",
+    "interpretation": "editorial prioritization only; unknown proposal fields treated as evidence to collect, not established defects"
+  }
+}

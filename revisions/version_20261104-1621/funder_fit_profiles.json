@@ -1,0 +1,62 @@
+{
+  "otf": {
+    "status": "Best direct technical route, subject to live program and eligibility",
+    "targeted_edits": "Lead with a specific surveillance/censorship threat to civil-society users. Explain local handling, restoration-key risk, optional cloud QA and a usable deployment. Add partner demand, an independent security evaluation, language-specific tests and a maintenance budget."
+  },
+  "hrf-bdf": {
+    "status": "Conditional: genuine Bitcoin/freedom-technology contribution required",
+    "targeted_edits": "State the actual Bitcoin/Nostr/ecash or financial-freedom workflow served. Define a verifiable integration, maintainers and open artifacts. Do not insert a token Bitcoin reference into an unrelated general-purpose tool."
+  },
+  "opensats": {
+    "status": "Conditional: direct ecosystem contribution and open licensing",
+    "targeted_edits": "Provide a concise one-page case, inspectable repository/license, direct Bitcoin/Nostr utility and public education materials. A general privacy product without ecosystem benefit remains a weak route."
+  },
+  "mozilla-mtf": {
+    "status": "Conditional: match the actual current theme/program",
+    "targeted_edits": "Name the exact open call and public-interest community. Show a reusable open artifact, transparent evaluation and community stewardship. Historical AI/environmental awards do not prove a generic privacy fellowship is available."
+  },
+  "fij": {
+    "status": "Standalone software route weak; needs a qualifying investigation",
+    "targeted_edits": "Identify the new wrongdoing question, preliminary findings, sources, reporting roadmap and US English-language publication commitment. Budget the tool only where it enables eligible reporting costs; do not omit the investigation."
+  },
+  "jfe": {
+    "status": "Program-dependent: newsroom innovation or qualifying cross-border team",
+    "targeted_edits": "Select the actual microgrant versus cross-border program first. For cross-border reporting, specify journalists/countries, European public relevance, story plan and editorial outlets. For newsroom innovation, define a bounded prototype and audience benefit."
+  },
+  "ij4eu": {
+    "status": "Reporting-led route; eligible multinational investigation required",
+    "targeted_edits": "Open with the cross-border investigation and publication partners. Connect pseudonymization to a documented collaboration/source-protection bottleneck, risk assessment, hard costs and independent editorial judgment."
+  },
+  "pulitzer-center": {
+    "status": "Reporting-led route with concrete data method",
+    "targeted_edits": "Specify the underreported public-interest question, outlet commitment, data access and verified methodology. Separate privacy of source material from safely shareable code/methods. AI-accountability topic similarity alone is not product-grant eligibility."
+  },
+  "civil-rights-defenders": {
+    "status": "Emergency/partnership route, not established open product R&D",
+    "targeted_edits": "Connect a documented defender threat to a practical deployment/training intervention and safety outcome; consider a separate long-term implementation partnership. Do not present general software research as acute emergency relief."
+  },
+  "freedom-house": {
+    "status": "Emergency/resilience support only where actual need qualifies",
+    "targeted_edits": "Describe the verified threat, urgency, eligible short-term cost and how the intervention lets a defender/organization continue its work. Protect identities; a long software roadmap does not establish emergency eligibility."
+  },
+  "european-endowment-for-democracy": {
+    "status": "Conditional: eligible geography and locally rooted democracy actors",
+    "targeted_edits": "Lead with a named or safely pseudonymized local partner's democratic work, why ordinary support is unavailable and how the tool enables continuity/accountability. Provide references and a proportionate operational budget."
+  },
+  "national-endowment-for-democracy": {
+    "status": "Plausible civic deployment route; organizational eligibility unknown",
+    "targeted_edits": "Center a country/region and local accountability users. Link the tool to secure documentation/reporting, deliver training and maintenance, and connect activity costs to observable civic outcomes."
+  },
+  "creative-europe": {
+    "status": "Consortium workstream; program/call conditions must be checked",
+    "targeted_edits": "Develop a real transnational newsroom partnership with languages, work packages, distribution, editorial independence and shared evaluation. Check topic-specific co-financing; avoid confusing an intermediary grant with software funding."
+  },
+  "open-society": {
+    "status": "Program/relationship access unknown; history spans distinct strategies",
+    "targeted_edits": "Start with civic actors' ability to act safely and the implementing organization's capacity. Identify the relevant program and approach route before writing. Historical regional/Justice grants do not prove current eligibility."
+  },
+  "ecpmf-mfrr": {
+    "status": "JiR residency is a different instrument from software development",
+    "targeted_edits": "For a real relocation request, document journalism and verified threat. For the tool, seek a separate eligible partnership/training or capacity-support route; residency precedents do not support a product-development ask."
+  }
+}

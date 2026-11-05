@@ -1,0 +1,188 @@
+# Gold labels for the synthetic eval fixtures. Every person, place and number is fictional.
+# must_not_appear: values that must be absent (case-insensitive) from the anonymized text.
+# must_keep: ordinary words and public entities that should survive (over-redaction check).
+# deny_terms: the user's denylist for this document (exercises the fuzzy matcher on misspellings).
+# quasi_identifiers: sentences only Pass 3 can catch; informational, not scored as leaks.
+fixtures:
+  01_meeting_notes.md:
+    must_not_appear:
+      - {value: Tomasz Verhoeven, entity: PERSON}
+      - {value: Tomasz, entity: PERSON}
+      - {value: Verhoeven, entity: PERSON}
+      - {value: Salma Reyes-Idowu, entity: PERSON}
+      - {value: Salma, entity: PERSON}
+      - {value: Henrik Valdane, entity: PERSON}
+      - {value: Valdane, entity: PERSON}
+      - {value: Priya Nandakumaran, entity: PERSON}
+      - {value: Priya, entity: PERSON}
+      - {value: Henrick Valdane, entity: PERSON}
+      - {value: Tomas Verhoeven, entity: PERSON}
+      - {value: 27 Harbour Street, entity: ADDRESS}
+      - {value: Port Halvren, entity: LOCATION}
+      - {value: K4471982, entity: ID_NUMBER}
+      - {value: 14 March 2025, entity: DATE}
+      - {value: 2 September 2026, entity: DATE}
+      - {value: 11 April 2025, entity: DATE}
+      - {value: "+44 20 7946 0123", entity: PHONE}
+      - {value: DE89 3704 0044 0532 0130 00, entity: IBAN}
+      - {value: priya.nandakumaran@lantern-rights.example, entity: EMAIL}
+      - {value: "Tr0ub4dor&3", entity: PASSWORD}
+      - {value: AKIAIOSFODNN7EXAMPLE, entity: API_KEY}
+    must_keep: [meeting, budget, detention, border, witness, finance, database, workshop, minutes, United Nations]
+    deny_terms:
+      - {term: Tomasz Verhoeven, entity: PERSON}
+      - {term: Henrik Valdane, entity: PERSON}
+      - {term: Salma Reyes-Idowu, entity: PERSON}
+      - {term: Priya Nandakumaran, entity: PERSON}
+  02_partner_email.txt:
+    must_not_appear:
+      - {value: Margarite, entity: PERSON}
+      - {value: Kasimir Dobrev, entity: PERSON}
+      - {value: Dobrev, entity: PERSON}
+      - {value: Marguerite Osei-Lindqvist, entity: PERSON}
+      - {value: Ines Calloway-Mbeki, entity: PERSON}
+      - {value: Yusuf Brandvold, entity: PERSON}
+      - {value: Ostermark, entity: LOCATION}
+      - {value: ines.calloway@lantern-rights.example, entity: EMAIL}
+      - {value: "+1 415 555 0132", entity: PHONE}
+      - {value: 88 Tannery Lane, entity: ADDRESS}
+      - {value: FR14 2004 1010 0505 0001 3M02 606, entity: IBAN}
+      - {value: 4111 1111 1111 1111, entity: CREDIT_CARD}
+      - {value: AKIAI44QH8DHBEXAMPLE, entity: API_KEY}
+      - {value: 3 June 2025, entity: DATE}
+    must_keep: [Follow-up, proposal, clinic, volunteers, survivors, invoice, travel grant, security, budget, transfer]
+    deny_terms:
+      - {term: Marguerite Osei-Lindqvist, entity: PERSON}
+      - {term: Kasimir Dobrev, entity: PERSON}
+      - {term: Yusuf Brandvold, entity: PERSON}
+      - {term: Ines Calloway-Mbeki, entity: PERSON}
+  03_call_transcript.txt:
+    must_not_appear:
+      - {value: Dalia Whitcombe, entity: PERSON}
+      - {value: Whitcombe, entity: PERSON}
+      - {value: Bogdan Arsenijevic, entity: PERSON}
+      - {value: Arsenijevic, entity: PERSON}
+      - {value: Bogdan Arsenievic, entity: PERSON}
+      - {value: 14 Quarry Road, entity: ADDRESS}
+      - {value: Kellmouth, entity: LOCATION}
+      - {value: 9 November 2024, entity: DATE}
+      - {value: 12 December 2024, entity: DATE}
+      - {value: P8836214, entity: ID_NUMBER}
+      - {value: b.arsenijevic@mailbox-demo.example, entity: EMAIL}
+      - {value: (212) 555-0187, entity: PHONE}
+      - {value: 5555 5555 5555 4444, entity: CREDIT_CARD}
+      - {value: NL91 ABNA 0417 1643 00, entity: IBAN}
+      - {value: Blue-Harbor-4471, entity: PASSWORD}
+      - {value: AKIAJ7TESTKEY2EXAMPLE, entity: API_KEY}
+    must_keep: [transcript, consent, officers, market, brother, clinic, hospital, legal aid, refund, review]
+    deny_terms:
+      - {term: Bogdan Arsenijevic, entity: PERSON}
+      - {term: Dalia Whitcombe, entity: PERSON}
+  04_status_update.md:
+    must_not_appear:
+      - {value: Ines Calloway-Mbeki, entity: PERSON}
+      - {value: Kasimir Dobrev, entity: PERSON}
+      - {value: Dobrev, entity: PERSON}
+      - {value: Yusuf Brandvold, entity: PERSON}
+      - {value: Brandvold, entity: PERSON}
+      - {value: Ostermark, entity: LOCATION}
+      - {value: Port Halvren, entity: LOCATION}
+      - {value: 5 Millwright Court, entity: ADDRESS}
+      - {value: 3 February 2025, entity: DATE}
+      - {value: 14 February 2025, entity: DATE}
+      - {value: GB82 WEST 1234 5698 7654 32, entity: IBAN}
+      - {value: ines.calloway@lantern-rights.example, entity: EMAIL}
+      - {value: "+44 20 7946 0958", entity: PHONE}
+      - {value: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY, entity: API_KEY}
+      - {value: Winter#Lamp88, entity: PASSWORD}
+    must_keep: [intake, interviews, hearings, volunteers, training, appeal, courier, report, translation, United Nations]
+    deny_terms:
+      - {term: Kasimir Dobrev, entity: PERSON}
+      - {term: Yusuf Brandvold, entity: PERSON}
+      - {term: Ines Calloway-Mbeki, entity: PERSON}
+    quasi_identifiers:
+      - the only wheelchair-using lawyer in Port Halvren who also speaks Tigrinya
+  05_report.md:
+    must_not_appear:
+      - {value: Anneliese Brooke-Tanaka, entity: PERSON}
+      - {value: Anneliese Brooke Tanaka, entity: PERSON}
+      - {value: Matteo Rinaldi-Okoye, entity: PERSON}
+      - {value: Rashid Al-Mansouri, entity: PERSON}
+      - {value: Kellmouth, entity: LOCATION}
+      - {value: 04/07/1989, entity: DATE}
+      - {value: 31 Chandler Row, entity: ADDRESS}
+      - {value: R2290417, entity: ID_NUMBER}
+      - {value: monitoring@lantern-rights.example, entity: EMAIL}
+      - {value: "+49 30 555 0176", entity: PHONE}
+      - {value: DE44 5001 0517 5407 3249 31, entity: IBAN}
+      - {value: ghp_16C7e42F292c6912E7710c838347Ae178B4a, entity: TOKEN}
+    must_keep: [monitoring, violations, interviews, consent, detainees, lawyer, limitations, recommendations, Council of Europe]
+    deny_terms:
+      - {term: Anneliese Brooke-Tanaka, entity: PERSON}
+      - {term: Matteo Rinaldi-Okoye, entity: PERSON}
+      - {term: Rashid Al-Mansouri, entity: PERSON}
+  06_website_text.md:
+    must_not_appear:
+      - {value: Tomasz Verhoeven, entity: PERSON}
+      - {value: Priya Nandakumaran, entity: PERSON}
+      - {value: Henrik Valdane, entity: PERSON}
+      - {value: Priya, entity: PERSON}
+      - {value: Port Halvren, entity: LOCATION}
+      - {value: 27 Harbour Street, entity: ADDRESS}
+      - {value: research@lantern-rights.example, entity: EMAIL}
+      - {value: "+44 20 7946 0123", entity: PHONE}
+      - {value: "+1 415 555 0177", entity: PHONE}
+      - {value: NL91 ABNA 0417 1643 00, entity: IBAN}
+      - {value: 4012 8888 8888 1881, entity: CREDIT_CARD}
+      - {value: Harbour!Light2025, entity: PASSWORD}
+      - {value: AKIAIOSFODNN7EXAMPLE, entity: API_KEY}
+      - {value: 6 May 2025, entity: DATE}
+    must_keep: [civil society, donors, foundations, regional court, ombudsman, office, privacy, donate, monitors, safety line]
+    deny_terms:
+      - {term: Tomasz Verhoeven, entity: PERSON}
+      - {term: Henrik Valdane, entity: PERSON}
+      - {term: Priya Nandakumaran, entity: PERSON}
+  07_grant_application.txt:
+    must_not_appear:
+      - {value: Yusuf Brandvold, entity: PERSON}
+      - {value: Kasimir Dobrev, entity: PERSON}
+      - {value: Ines Calloway-Mbeki, entity: PERSON}
+      - {value: Kellmouth, entity: LOCATION}
+      - {value: Ostermark, entity: LOCATION}
+      - {value: 88 Tannery Lane, entity: ADDRESS}
+      - {value: yusuf.brandvold@lantern-rights.example, entity: EMAIL}
+      - {value: "+1 415 555 0132", entity: PHONE}
+      - {value: 18 September 2024, entity: DATE}
+      - {value: 30 April 2025, entity: DATE}
+      - {value: FR14 2004 1010 0505 0001 3M02 606, entity: IBAN}
+      - {value: X5530981, entity: ID_NUMBER}
+      - {value: "378282246310005", entity: CREDIT_CARD}
+      - {value: Orchard-Gate-9921, entity: PASSWORD}
+      - {value: AKIAI44QH8DHBEXAMPLE, entity: API_KEY}
+    must_keep: [survivors, paralegals, programme, interviewing, budget, safeguards, pseudonymised, encrypted, annual report, medical documentation]
+    deny_terms:
+      - {term: Yusuf Brandvold, entity: PERSON}
+      - {term: Kasimir Dobrev, entity: PERSON}
+      - {term: Ines Calloway-Mbeki, entity: PERSON}
+  08_news_story.txt:
+    must_not_appear:
+      - {value: Rashid Al-Mansouri, entity: PERSON}
+      - {value: Al-Mansouri, entity: PERSON}
+      - {value: Anneliese Brooke-Tanaka, entity: PERSON}
+      - {value: Layla Al-Mansoori, entity: PERSON}
+      - {value: Matteo Rinaldi-Okoye, entity: PERSON}
+      - {value: Kellmouth, entity: LOCATION}
+      - {value: Chandler Row, entity: ADDRESS}
+      - {value: 19 May 2025, entity: DATE}
+      - {value: 20 January 2025, entity: DATE}
+      - {value: tips@kellmouth-courier.example, entity: EMAIL}
+      - {value: "+44 161 496 0112", entity: PHONE}
+      - {value: Newsdesk2025!, entity: PASSWORD}
+      - {value: AKIAJ7TESTKEY2EXAMPLE, entity: API_KEY}
+    must_keep: [court, activist, detention, prosecutor, lawyer, appeal, newsroom, radio station, press freedom, Council of Europe]
+    deny_terms:
+      - {term: Rashid Al-Mansouri, entity: PERSON}
+      - {term: Anneliese Brooke-Tanaka, entity: PERSON}
+      - {term: Matteo Rinaldi-Okoye, entity: PERSON}
+    quasi_identifiers:
+      - the only woman judge in the northern district

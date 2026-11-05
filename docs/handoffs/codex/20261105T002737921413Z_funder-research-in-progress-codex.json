@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "slug": "funder-research-in-progress",
+  "written_utc": "20261105T002737921413Z",
+  "origin_root": "/Users/jonc/code/hrf_2026_hack-and-tell_anonymizer",
+  "session": "01a1a912-ab99-7802-9332-e34940dfee86",
+  "branch": "main",
+  "head": "2614c70b397c5c3449a21e958df28247ad903506",
+  "dirty": true,
+  "previous": null,
+  "document": "20261105T002737921413Z_funder-research-in-progress-codex.md",
+  "document_sha256": "f8472d8952ff84ab2705f755dce4aa4d4ae5598bf99b2c01cd5428c47c32a0d8"
+}

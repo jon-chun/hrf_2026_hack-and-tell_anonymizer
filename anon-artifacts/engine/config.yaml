@@ -1,0 +1,98 @@
+# anon3pass configuration. Every pass, threshold and entity policy is set here.
+pipeline:
+  passes: [patterns, libraries, agent_qa]   # remove any entry to disable that pass
+  language: en
+  max_qa_iterations: 2                       # re-run cycles driven by Pass 3 findings
+  fail_on: high                              # the gate fails on findings at or above: high | medium | low
+  propagate_mentions: true                   # replace every later mention of a detected name, place or organisation
+  keep_public_entities:                      # public bodies a reader needs; edit for your context
+    - United Nations
+    - European Union
+    - Council of Europe
+    - European Court of Human Rights
+    - International Criminal Court
+    - Amnesty International
+    - Human Rights Watch
+    - United Nations Development Programme
+    - World Bank
+    - Red Cross
+    - Telegram
+    - Signal
+    - WhatsApp
+    - Instagram
+    - Facebook
+    - Google
+    - Gmail
+
+paths:
+  key_file: ~/.config/anon3pass/master.key   # 0600, created by `anon init-key`, never in the repo
+  terms_file: terms.local.yaml               # your own denylist/allowlist; holds real names, stays local
+
+pass1_patterns:
+  enabled_rules: [email, url, ipv4, ipv6, phone, ssn, credit_card, iban, date, age, handle, address, id_number, accounts, long_number, labelled_user, spoken, ordinal_date]
+  custom_rules: []                           # - {name: case_no, regex: 'HRF-\d{4}', entity: ID_NUMBER}
+  fuzzy:
+    enabled: true
+    threshold: 88                            # rapidfuzz WRatio-free ratio, 0-100
+    min_length: 5                            # shorter denylist terms match exactly only
+    max_edit_window: 1                       # extra tokens allowed in the sliding window
+
+pass2_libraries:
+  ner:
+    engine: presidio_spacy                   # presidio_spacy | gliner2 | opf | none
+    spacy_model: en_core_web_lg
+    gliner2_model: fastino/gliner2-privacy-filter-PII-multi
+    opf_checkpoint: null
+    score_threshold: 0.45
+    entities: [PERSON, ORGANIZATION, LOCATION, ADDRESS]
+  presidio_pattern_recognizers: true
+  secrets:
+    detect_secrets: true
+    credential_rules: true                   # password=, bearer, JWT, PEM, provider key formats
+    gitleaks: auto                           # auto | true | false; uses the binary when installed
+    entropy_min: 4.0
+    entropy_min_length: 24
+
+pass3_agent_qa:
+  deterministic_verify: true                 # local, no LLM, always runs first
+  backend: claude_code                       # claude_code | anthropic | ollama | none
+  anthropic_model: claude-opus-5-5
+  anthropic_effort: high
+  ollama_model: qwen3:4b
+  ollama_url: http://localhost:11434
+  chunk_chars: 12000
+  chunk_overlap_chars: 800
+
+surrogates:
+  locale: en_US
+  preserve_case: true
+  safe_formats: true                         # reserved phone ranges, example.* domains, invalid SSN areas
+  date_shift_days_max: 180                   # keyed, per-key consistent; preserves intervals inside a set
+
+# action: surrogate | generalize | redact | keep
+entity_policy:
+  PERSON: surrogate
+  ORGANIZATION: surrogate
+  LOCATION: surrogate
+  ADDRESS: surrogate
+  EMAIL: surrogate
+  PHONE: surrogate
+  URL: surrogate
+  IP_ADDRESS: surrogate
+  DATE: surrogate
+  AGE: generalize
+  SSN: surrogate
+  CREDIT_CARD: surrogate
+  IBAN: surrogate
+  BANK_ACCOUNT: surrogate
+  ID_NUMBER: surrogate
+  USERNAME: surrogate
+  API_KEY: redact
+  PASSWORD: redact
+  PRIVATE_KEY: redact
+  TOKEN: redact
+  SECRET: redact
+  CUSTOM: surrogate
+
+secrets_policy:
+  store_in_vault: false                      # secrets are irreversible by default; only a salted fingerprint is kept

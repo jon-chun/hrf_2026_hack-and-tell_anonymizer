@@ -1,0 +1,257 @@
+fixtures:
+  h1_meeting.md:
+    must_not_appear:
+      - {value: "Amina bint Khalid Al-Rashidi", entity: PERSON}
+      - {value: "Dr. Al-Rashidi", entity: PERSON}
+      - {value: "amina", entity: PERSON}
+      - {value: "Zaw Min Htet", entity: PERSON}
+      - {value: "U Zaw", entity: PERSON}
+      - {value: "zaw", entity: PERSON}
+      - {value: "htay lwin", entity: PERSON}
+      - {value: "Ma Thida", entity: PERSON}
+      - {value: "ma thida", entity: PERSON}
+      - {value: "Thida", entity: PERSON}
+      - {value: "Tesfay \"Teddy\" Berhe", entity: PERSON}
+      - {value: "Tesfay", entity: PERSON}
+      - {value: "Teddy", entity: PERSON}
+      - {value: "teddy", entity: PERSON}
+      - {value: "T. Berhe", entity: PERSON}
+      - {value: "nguyen thi lan anh", entity: PERSON}
+      - {value: "lan's", entity: PERSON}
+      - {value: "Carlos Ibáñez Ruiz-Tagle", entity: PERSON}
+      - {value: "carlos", entity: PERSON}
+      - {value: "Olu", entity: PERSON}
+      - {value: "olu", entity: PERSON}
+      - {value: "Farzaneh Hosseini-Rad", entity: PERSON}
+      - {value: "Farzaneh", entity: PERSON}
+      - {value: "Riverbend Rights Network", entity: ORGANIZATION}
+      - {value: "RRN", entity: ORGANIZATION}
+      - {value: "Nordvik Foundation", entity: ORGANIZATION}
+      - {value: "14 Rue des Tanneurs, 1000 Bruxelles", entity: ADDRESS}
+      - {value: "blue-heron-92", entity: PASSWORD}
+      - {value: "Tr0ub4dor&3x", entity: PASSWORD}
+      - {value: "4471#", entity: SECRET}
+      - {value: "20-45-17", entity: BANK_ACCOUNT}
+      - {value: "63820914", entity: BANK_ACCOUNT}
+      - {value: "14.05.2024", entity: DATE}
+      - {value: "3rd of May", entity: DATE}
+      - {value: "10th of June", entity: DATE}
+      - {value: "+95 9 7845 12093", entity: PHONE}
+      - {value: "09-420 551 288", entity: PHONE}
+      - {value: "+32 2 555 01 87", entity: PHONE}
+      - {value: "@zawmh.safe", entity: USERNAME}
+      - {value: "rrn_admin", entity: USERNAME}
+      - {value: "t.me/rrn_field_desk", entity: URL}
+      - {value: "079184012345", entity: ID_NUMBER}
+      - {value: "LK-19 ZZR", entity: OTHER}
+      - {value: "sk_test_EXAMPLE_51Hq8fakeKEY00", entity: API_KEY}
+      - {value: "91.198.17.4", entity: IP_ADDRESS}
+      - {value: "amina.alrashidi@rrn-example.org", entity: EMAIL}
+    must_keep:
+      - "United Nations"
+      - "Council of Europe"
+      - "Geneva"
+      - "Monday"
+      - "Budget"
+      - "Action"
+    quasi:
+      - "the only woman on the Kachin delegation who lost her left hand in the 2019 flood has agreed to testify."
+  h2_email.txt:
+    must_not_appear:
+      - {value: "i.marinescu@horizon-partners.example.net", entity: EMAIL}
+      - {value: "olabisi@lantern-aid.example.org", entity: EMAIL}
+      - {value: "rahim.p@kabul-fieldwork.example.com", entity: EMAIL}
+      - {value: "Ioana Marinescu", entity: PERSON}
+      - {value: "Ioana", entity: PERSON}
+      - {value: "Olabisi Adeyemi-Okafor", entity: PERSON}
+      - {value: "Bisi", entity: PERSON}
+      - {value: "Dmytro Kovalenko", entity: PERSON}
+      - {value: "Yulia \"Julie\" Kovalenko-Shevchuk", entity: PERSON}
+      - {value: "Julie", entity: PERSON}
+      - {value: "Rahim Parwani", entity: PERSON}
+      - {value: "Rahim", entity: PERSON}
+      - {value: "R. Parwani", entity: PERSON}
+      - {value: "Gulnaz Tursun", entity: PERSON}
+      - {value: "Gülnaz Tursun", entity: PERSON}
+      - {value: "Abdurehim Memet", entity: PERSON}
+      - {value: "Oksana Hrytsenko", entity: PERSON}
+      - {value: "Jesús Valdés-Pardo", entity: PERSON}
+      - {value: "Shirin Kamali", entity: PERSON}
+      - {value: "Horizon Partners", entity: ORGANIZATION}
+      - {value: "Lantern Aid", entity: ORGANIZATION}
+      - {value: "Kabul Fieldwork Collective", entity: ORGANIZATION}
+      - {value: "Floor 3, Strada Lipscani 41, sector 3, 030031 Bucuresti", entity: ADDRESS}
+      - {value: "Lindenstraße 12, 10969 Berlin", entity: ADDRESS}
+      - {value: "Flat 4B, 27 Kingsmead Road, Leeds LS6 2PQ", entity: ADDRESS}
+      - {value: "+40 21 555 0198", entity: PHONE}
+      - {value: "+40 722 555 013", entity: PHONE}
+      - {value: "+93 70 123 4567", entity: PHONE}
+      - {value: "22 May 2024", entity: DATE}
+      - {value: "21 May 2024", entity: DATE}
+      - {value: "24.05.2024", entity: DATE}
+      - {value: "3rd of May", entity: DATE}
+      - {value: "062-000", entity: BANK_ACCOUNT}
+      - {value: "1234 5678", entity: BANK_ACCOUNT}
+      - {value: "123 456 782", entity: ID_NUMBER}
+      - {value: "12345678Z", entity: ID_NUMBER}
+      - {value: "QQ 12 34 56 C", entity: ID_NUMBER}
+      - {value: "lantern-vpn", entity: USERNAME}
+      - {value: "rahim.parwani.fw", entity: USERNAME}
+      - {value: "shirin.k", entity: USERNAME}
+      - {value: "Winter2024!share", entity: PASSWORD}
+      - {value: "192.0.2.44", entity: IP_ADDRESS}
+      - {value: "www.lantern-aid.example.org", entity: URL}
+    must_keep:
+      - "European Union"
+      - "Skype"
+      - "Programme Officer"
+      - "Friday"
+    quasi:
+      - "The accountant at the second floor office, the one who walked with a cane after the 2021 accident, said payment is late since the 3rd of May."
+  h3_transcript.txt:
+    must_not_appear:
+      - {value: "Jay Osei", entity: PERSON}
+      - {value: "jay", entity: PERSON}
+      - {value: "Folasade Bankole", entity: PERSON}
+      - {value: "sade", entity: PERSON}
+      - {value: "yonas tesfamariam", entity: PERSON}
+      - {value: "selam gebremedhin", entity: PERSON}
+      - {value: "yoni", entity: PERSON}
+      - {value: "Yonas", entity: PERSON}
+      - {value: "sade dot bankole at northgate aid dot org", entity: EMAIL}
+      - {value: "fola dot b at gmail dot com", entity: EMAIL}
+      - {value: "jay dot osei at northgate aid dot org", entity: EMAIL}
+      - {value: "plus four four seven seven double zero nine oh one two three four", entity: PHONE}
+      - {value: "four four two one nine eight seven six", entity: BANK_ACCOUNT}
+      - {value: "oh eight dash nine nine dash one two", entity: BANK_ACCOUNT}
+      - {value: "yonas underscore t", entity: USERNAME}
+      - {value: "lemon tree seven seven nine", entity: PASSWORD}
+      - {value: "one two three dash four five dash six seven eight nine", entity: ID_NUMBER}
+      - {value: "third of may", entity: DATE}
+      - {value: "seventeenth of june", entity: DATE}
+      - {value: "plot seventeen ikoyi crescent lagos", entity: ADDRESS}
+      - {value: "Northgate", entity: ORGANIZATION}
+    must_keep:
+      - "United Nations"
+      - "Geneva"
+      - "Midlands"
+      - "nairobi"
+      - "asmara"
+    quasi:
+      - "the interpreter who sits behind the pharmacy on old tram street and has a twin brother in the police is nervous about the hearing"
+  h4_donor_report.md:
+    must_not_appear:
+      - {value: "María del Carmen Ortega Salcedo", entity: PERSON}
+      - {value: "Trần Văn Minh", entity: PERSON}
+      - {value: "Mr Minh", entity: PERSON}
+      - {value: "Mr. Minh", entity: PERSON}
+      - {value: "Daw Khin", entity: PERSON}
+      - {value: "K. A. Rahman", entity: PERSON}
+      - {value: "Bukola Adeniyi", entity: PERSON}
+      - {value: "Mohammad Karim Rahmani", entity: PERSON}
+      - {value: "Muhammed Kareem Rahmani", entity: PERSON}
+      - {value: "Ngozi Eze-Bello", entity: PERSON}
+      - {value: "Oleksandr Petrenko", entity: PERSON}
+      - {value: "Alex", entity: PERSON}
+      - {value: "Olabisi Adeyemi-Okafor", entity: PERSON}
+      - {value: "Lantern Aid", entity: ORGANIZATION}
+      - {value: "Stenmark Trust", entity: ORGANIZATION}
+      - {value: "Whitfield Ames LLP", entity: ORGANIZATION}
+      - {value: "01.01.2024", entity: DATE}
+      - {value: "31.03.2024", entity: DATE}
+      - {value: "12.04.2024", entity: DATE}
+      - {value: "8th of May", entity: DATE}
+      - {value: "004512367890", entity: BANK_ACCOUNT}
+      - {value: "2345 6789 0123", entity: ID_NUMBER}
+      - {value: "+91 98765 43210", entity: PHONE}
+      - {value: "050 123 45 67", entity: PHONE}
+      - {value: "Plot 14, Sector 21, Gurugram 122001", entity: ADDRESS}
+      - {value: "safety@lantern-aid.example.org", entity: EMAIL}
+      - {value: "https://portal.lantern-aid.example.org/reports/2024/q1", entity: URL}
+      - {value: "AKIAEXAMPLE0FAKE00KEY", entity: API_KEY}
+    must_keep:
+      - "European Union"
+      - "World Bank"
+      - "Annual Review"
+      - "Reserve"
+      - "Board"
+      - "Sector 4"
+      - "September"
+    quasi:
+      - "Beneficiary 17 is the only licensed midwife over seventy in the district, and she told us the clinic building is unsafe."
+  h5_witness.txt:
+    must_not_appear:
+      - {value: "Abdulkadir Hesen", entity: PERSON}
+      - {value: "Abdukadir Hasan", entity: PERSON}
+      - {value: "Abdu", entity: PERSON}
+      - {value: "Mehriban Yusup", entity: PERSON}
+      - {value: "Ilham", entity: PERSON}
+      - {value: "Tursunjan", entity: PERSON}
+      - {value: "Sergeant Rozi", entity: PERSON}
+      - {value: "Memetjan Hesen", entity: PERSON}
+      - {value: "Gulbahar", entity: PERSON}
+      - {value: "Wang Lei", entity: PERSON}
+      - {value: "Qarabagh", entity: LOCATION}
+      - {value: "Tashkul", entity: LOCATION}
+      - {value: "Aq Yar", entity: LOCATION}
+      - {value: "8 Yangi Mahalla Street, Aq Yar", entity: ADDRESS}
+      - {value: "12.07.1985", entity: DATE}
+      - {value: "3rd of May", entity: DATE}
+      - {value: "04.05.2024", entity: DATE}
+      - {value: "650102198507123456", entity: ID_NUMBER}
+      - {value: "XJ-A 7K821", entity: OTHER}
+      - {value: "0991 555 0142", entity: PHONE}
+      - {value: "+90 532 555 01 77", entity: PHONE}
+      - {value: "@abdu_h_1985", entity: USERNAME}
+      - {value: "olive harvest", entity: SECRET}
+      - {value: "w.lei@bridgehelp.example.org", entity: EMAIL}
+      - {value: "6222 0200 1234 5678", entity: BANK_ACCOUNT}
+    must_keep:
+      - "United Nations"
+      - "Telegram"
+      - "Signed"
+    quasi:
+      - "The baker with the green door next to the old mosque, who has six fingers on his right hand, saw all this, but he is afraid to speak."
+  h6_staff_page.md:
+    must_not_appear:
+      - {value: "Bashir Al-Hashimi", entity: PERSON}
+      - {value: "Bashir al Hashemi", entity: PERSON}
+      - {value: "Bashir", entity: PERSON}
+      - {value: "Alejandro Ruiz de la Torre y Mena", entity: PERSON}
+      - {value: "Alejandro", entity: PERSON}
+      - {value: "Temitope Adebayo", entity: PERSON}
+      - {value: "Tope", entity: PERSON}
+      - {value: "Meron Haile", entity: PERSON}
+      - {value: "Bohdan Lysenko", entity: PERSON}
+      - {value: "Богдан Лисенко", entity: PERSON}
+      - {value: "Phạm Thị Hồng Nhung", entity: PERSON}
+      - {value: "Ko Kyaw Soe", entity: PERSON}
+      - {value: "Hamid Rezaei", entity: PERSON}
+      - {value: "Hamid jan", entity: PERSON}
+      - {value: "bashir@lantern-aid.example.org", entity: EMAIL}
+      - {value: "nhung.pham@lantern-aid.example.org", entity: EMAIL}
+      - {value: "+962 6 555 0134", entity: PHONE}
+      - {value: "+34 612 345 678", entity: PHONE}
+      - {value: "Calle del Pilar 15, 3º B, 46003 Valencia", entity: ADDRESS}
+      - {value: "5 Harbour Lane, Eastport", entity: ADDRESS}
+      - {value: "@tope_lantern", entity: USERNAME}
+      - {value: "meron.h.lantern", entity: USERNAME}
+      - {value: "EH 123456", entity: ID_NUMBER}
+      - {value: "02.06.2024", entity: DATE}
+      - {value: "15.03.2019", entity: DATE}
+      - {value: "7A-3345", entity: OTHER}
+      - {value: "ghp_EXAMPLEtoken0000000000000000000000", entity: TOKEN}
+      - {value: "EXAMPLE_SECRET_9f8e7d6c", entity: SECRET}
+      - {value: "http://10.20.30.41:8080/admin", entity: URL}
+      - {value: "10.20.30.41", entity: IP_ADDRESS}
+      - {value: "Lantern Aid", entity: ORGANIZATION}
+    must_keep:
+      - "United Nations Development Programme"
+      - "Hilux"
+      - "Twitter"
+      - "Instagram"
+      - "Privacy Policy"
+      - "Thursday"
+      - "Executive Director"
+    quasi:
+      - "Our longest-serving volunteer is the retired ferry captain from the island of Saltholm Bay who still runs the Thursday soup kitchen at 5 Harbour Lane, Eastport."

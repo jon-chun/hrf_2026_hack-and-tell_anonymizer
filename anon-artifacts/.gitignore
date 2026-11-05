@@ -1,0 +1,10 @@
+# Never commit real inputs, mappings or keys. Synthetic fixtures live in engine/eval/.
+workspace/raw/*
+workspace/out/*
+!workspace/raw/.gitkeep
+!workspace/out/.gitkeep
+*.map.enc
+*.registry.enc
+*.key
+terms.local.yaml
+engine/.venv/

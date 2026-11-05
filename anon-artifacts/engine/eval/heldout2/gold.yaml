@@ -1,0 +1,98 @@
+fixtures:
+  b1_grant.txt:
+    must_not_appear:
+      - {value: "Wanjiru Mwangi-Ochieng", entity: PERSON}
+      - {value: "W. M. Ochieng", entity: PERSON}
+      - {value: "Wanji", entity: PERSON}
+      - {value: "W. Mwangi-Ochieng", entity: PERSON}
+      - {value: "Oleksandr Kovalenko", entity: PERSON}
+      - {value: "Alexandr Kovalenko", entity: PERSON}
+      - {value: "Sasha", entity: PERSON}
+      - {value: "Ingeborg Salvesen-Pillay", entity: PERSON}
+      - {value: "Kandelwood Mobile Library Collective", entity: ORGANIZATION}
+      - {value: "Mwambao Savings Cooperative", entity: ORGANIZATION}
+      - {value: "14 Tamarind Lane, Block C, Nairobi 00100, Kenya", entity: ADDRESS}
+      - {value: "wanjiru.mwangi@kandelwood-library.example.org", entity: EMAIL}
+      - {value: "i.salvesen@uonbi.example.ac.ke", entity: EMAIL}
+      - {value: "+254 712 555 0143", entity: PHONE}
+      - {value: "+380 44 555 0192", entity: PHONE}
+      - {value: "+254 20 555 0171", entity: PHONE}
+      - {value: "28391046", entity: ID_NUMBER}
+      - {value: "0114-5502-8897-03", entity: BANK_ACCOUNT}
+      - {value: "@sasha_kovalenko_lib", entity: USERNAME}
+    must_keep: ["UNESCO", "United Nations Children's Fund", "Ministry of Education", "University of Nairobi", "Reading Week", "Tuesday", "Swahili", "Monday"]
+    quasi: ["The treasurer is the only retired customs officer in the village who also teaches Quranic recitation on Fridays, and she has agreed to countersign every payment over 500 shillings."]
+  b2_status.md:
+    must_not_appear:
+      - {value: "Priya Raghunathan", entity: PERSON}
+      - {value: "Priya R.", entity: PERSON}
+      - {value: "Priya", entity: PERSON}
+      - {value: "Søren Lindqvist", entity: PERSON}
+      - {value: "Søren", entity: PERSON}
+      - {value: "Soren", entity: PERSON}
+      - {value: "Yuki Tanaka-Whitfield", entity: PERSON}
+      - {value: "Yuki", entity: PERSON}
+      - {value: "Chidi Okonkwo", entity: PERSON}
+      - {value: "Chi", entity: PERSON}
+      - {value: "Rajesh Raghunathan", entity: PERSON}
+      - {value: "Raj", entity: PERSON}
+      - {value: "Nordhavn Labs", entity: ORGANIZATION}
+      - {value: "@soren.l", entity: USERNAME}
+      - {value: "deploy-shared", entity: USERNAME}
+      - {value: "Mango-Lantern-42", entity: PASSWORD}
+      - {value: "https://status.nordhavn-labs.example/overview", entity: URL}
+      - {value: "203.0.113.45", entity: IP_ADDRESS}
+      - {value: "10.20.4.17", entity: IP_ADDRESS}
+      - {value: "priya.raghunathan@nordhavn-labs.example", entity: EMAIL}
+      - {value: "s.lindqvist@nordhavn-labs.example", entity: EMAIL}
+      - {value: "yuki.tw@nordhavn-labs.example", entity: EMAIL}
+      - {value: "+45 31 55 01 27", entity: PHONE}
+      - {value: "+45 29 40 77 12", entity: PHONE}
+      - {value: "+81 90 5550 1234", entity: PHONE}
+      - {value: "Havnegade 41, 3rd floor, 1058 Copenhagen K, Denmark", entity: ADDRESS}
+    must_keep: ["Kubernetes", "GitHub", "Amazon Web Services", "Slack", "Monday", "Wednesday"]
+    quasi: ["The person who sits next to the printer on the third floor and handles all the vendor invoices is leaving in March, and nobody else knows the approval flow."]
+  b3_news.txt:
+    must_not_appear:
+      - {value: "Ingrid Haugen", entity: PERSON}
+      - {value: "Haugen", entity: PERSON}
+      - {value: "Mohammed al-Rashidi", entity: PERSON}
+      - {value: "Muhammad Al Rashid", entity: PERSON}
+      - {value: "Zhang Wei", entity: PERSON}
+      - {value: "Wei Zhang", entity: PERSON}
+      - {value: "Bartholomew", entity: PERSON}
+      - {value: "Bart", entity: PERSON}
+      - {value: "O'Rourke", entity: PERSON}
+      - {value: "Fatima Zahra Benali", entity: PERSON}
+      - {value: "Tidewater Shuttle Services", entity: ORGANIZATION}
+      - {value: "Marisol Regional Police", entity: ORGANIZATION}
+      - {value: "22 Quayside Road", entity: ADDRESS}
+      - {value: "P8830421X", entity: ID_NUMBER}
+      - {value: "@TidewaterShuttle", entity: USERNAME}
+      - {value: "+61 7 5550 0188", entity: PHONE}
+      - {value: "incidents@marisolpolice.example.gov.au", entity: EMAIL}
+    must_keep: ["Reuters", "European Union", "United Nations", "Geneva", "Thursday", "Friday", "Saturday"]
+    quasi: ["The driver, a 54-year-old widow who runs the only pharmacy on Kestrel Street, was treated for shoulder injuries and released."]
+  b4_interview.txt:
+    must_not_appear:
+      - {value: "HANA KOBAYASHI-BRANDT", entity: PERSON}
+      - {value: "HK-B", entity: PERSON}
+      - {value: "Amara Diallo", entity: PERSON}
+      - {value: "AMARA DIALLO", entity: PERSON}
+      - {value: "Amara", entity: PERSON}
+      - {value: "Mama D", entity: PERSON}
+      - {value: "Dmitri Volkov", entity: PERSON}
+      - {value: "Dmitry Volkoff", entity: PERSON}
+      - {value: "Dima", entity: PERSON}
+      - {value: "Lucia Fernandez-Ortega", entity: PERSON}
+      - {value: "Lucy", entity: PERSON}
+      - {value: "Santos Marine Pilots Association", entity: ORGANIZATION}
+      - {value: "Rua das Palmeiras 88, apto 12, Sao Paulo 01310-100", entity: ADDRESS}
+      - {value: "987.654.321-00", entity: ID_NUMBER}
+      - {value: "+55 11 91234-5678", entity: PHONE}
+      - {value: "amara.diallo@harbourvoices.example.org", entity: EMAIL}
+      - {value: "@mama_d_pilot", entity: USERNAME}
+      - {value: "sk_test_EXAMPLE_4fG9hJ2kL8mN", entity: API_KEY}
+      - {value: "March 3rd, 1998", entity: DATE}
+    must_keep: ["International Olympic Committee", "Dakar", "Kyoto", "Brazil", "Tuesday"]
+    quasi: ["Honestly it was the best thing, I became the only female harbour pilot in the whole of Santos, and the men never forgave me for it."]

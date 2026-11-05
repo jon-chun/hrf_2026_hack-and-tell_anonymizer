@@ -1,0 +1,7 @@
+# Copy to terms.local.yaml (gitignored) and list your own sensitive names.
+# Your organization and project names belong here: the automated passes can miss them.
+deny:
+  - {term: "Example Org", entity: ORGANIZATION}
+  - {term: "Example Person", entity: PERSON}
+allow:
+  - Geneva

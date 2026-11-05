@@ -1,0 +1,17 @@
+{
+  "known_weight": 60,
+  "known_points": 20.0,
+  "lower": 20.0,
+  "upper": 60.0,
+  "interpretation": "Partial design evidence only; not an application score or probability",
+  "factors": {
+    "strategic_fit": null,
+    "validated_need": 1,
+    "technical_case": 2,
+    "delivery": 1,
+    "adoption": null,
+    "measurement": 1,
+    "economics": null,
+    "communication": 2
+  }
+}
