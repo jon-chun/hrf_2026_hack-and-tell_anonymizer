@@ -1,0 +1,25 @@
+graph LR
+  subgraph M[Your machine]
+    R[Raw documents]
+    T[Terms file]
+    K[Master key]
+    V[Encrypted mappings]
+    C[bin/anon tool]
+    O[Anonymized text]
+    R --> C
+    T --> C
+    K --> C
+    C --> V
+    C --> O
+  end
+  subgraph P[Model provider, default audit only]
+    Q[Audit agent]
+  end
+  O -->|anonymized text only,<br/>may contain missed values| Q
+  Q -->|findings| C
+  class R,T,K,V,C,O local
+  class Q provider
+  classDef local fill:#e8f1fb,stroke:#2a78d6,color:#0b0b0b
+  classDef provider fill:#fdeee7,stroke:#eb6834,color:#0b0b0b
+  classDef human fill:#e5f6f0,stroke:#1baf7a,color:#0b0b0b
+  classDef neutral fill:#f4f3f0,stroke:#8a8983,color:#0b0b0b

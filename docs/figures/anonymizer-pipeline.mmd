@@ -1,0 +1,20 @@
+graph TD
+  A[Raw document] --> B[Layer 1: Patterns<br/>regex, denylist, fuzzy matches]
+  A --> C[Layer 2: Libraries<br/>names, places, secrets]
+  B --> D[Merge detections<br/>find every repeat mention]
+  C --> D
+  D --> E[Replace with surrogates]
+  E --> F[Anonymized text]
+  E --> G[Encrypted mapping]
+  F --> H[Layer 3a: Local verification]
+  H -->|passes| I[Layer 3b: Agent audit]
+  I -->|new leaks become extra terms,<br/>then re-run from the raw text| A
+  I --> J{Gate}
+  J -->|a person accepts<br/>flagged passages| K[Reviewed output]
+  class A,B,C,D,E,F,G,H local
+  class I provider
+  class J,K human
+  classDef local fill:#e8f1fb,stroke:#2a78d6,color:#0b0b0b
+  classDef provider fill:#fdeee7,stroke:#eb6834,color:#0b0b0b
+  classDef human fill:#e5f6f0,stroke:#1baf7a,color:#0b0b0b
+  classDef neutral fill:#f4f3f0,stroke:#8a8983,color:#0b0b0b

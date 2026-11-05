@@ -1,0 +1,19 @@
+graph TD
+  A[Your proposal] --> C[Gate check:<br/>eligibility and call rules]
+  B[Funder rules] --> C
+  C -->|fail| X[Stop: this route is closed]
+  C -->|pass or unknown| D[Similarity:<br/>six dimensions, 0 to 100]
+  R[253 public award records] --> D
+  C -->|pass or unknown| E[Readiness:<br/>eight evidence factors]
+  D --> F[Gap analysis against<br/>closest comparators]
+  E --> F
+  F --> G[Ranked edits with<br/>acceptance checks]
+  G --> H[A person verifies each<br/>suggestion is true]
+  class A,B,R neutral
+  class C,D,E,F,G local
+  class X provider
+  class H human
+  classDef local fill:#e8f1fb,stroke:#2a78d6,color:#0b0b0b
+  classDef provider fill:#fdeee7,stroke:#eb6834,color:#0b0b0b
+  classDef human fill:#e5f6f0,stroke:#1baf7a,color:#0b0b0b
+  classDef neutral fill:#f4f3f0,stroke:#8a8983,color:#0b0b0b

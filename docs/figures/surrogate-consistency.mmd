@@ -1,0 +1,29 @@
+graph LR
+  subgraph Original mentions
+    A1[John Smith]
+    A2[John]
+    A3[Dr. Smith]
+    A4[SMITH]
+  end
+  P((One person,<br/>one keyed identity))
+  subgraph Anonymized mentions
+    B1[Mark Davis]
+    B2[Mark]
+    B3[Dr. Davis]
+    B4[DAVIS]
+  end
+  A1 --> P
+  A2 --> P
+  A3 --> P
+  A4 --> P
+  P --> B1
+  P --> B2
+  P --> B3
+  P --> B4
+  class A1,A2,A3,A4 local
+  class B1,B2,B3,B4 human
+  class P neutral
+  classDef local fill:#e8f1fb,stroke:#2a78d6,color:#0b0b0b
+  classDef provider fill:#fdeee7,stroke:#eb6834,color:#0b0b0b
+  classDef human fill:#e5f6f0,stroke:#1baf7a,color:#0b0b0b
+  classDef neutral fill:#f4f3f0,stroke:#8a8983,color:#0b0b0b

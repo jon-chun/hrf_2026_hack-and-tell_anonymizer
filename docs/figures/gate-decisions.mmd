@@ -1,0 +1,19 @@
+graph TD
+  A[Verification and audit finished] --> B{High-severity<br/>direct leak?}
+  B -->|yes| C[Apply findings and<br/>re-run from raw text]
+  C --> A
+  B -->|no| D{Passages needing<br/>human judgment?}
+  D -->|no| G[Gate passes]
+  D -->|yes| E[A person reads them]
+  E --> F{Acceptable?}
+  F -->|yes| H[Re-run gate with<br/>--human-reviewed]
+  H --> G
+  F -->|no| I[Edit the source<br/>and re-run]
+  I --> A
+  class A,C,I local
+  class B,D,F neutral
+  class E,H,G human
+  classDef local fill:#e8f1fb,stroke:#2a78d6,color:#0b0b0b
+  classDef provider fill:#fdeee7,stroke:#eb6834,color:#0b0b0b
+  classDef human fill:#e5f6f0,stroke:#1baf7a,color:#0b0b0b
+  classDef neutral fill:#f4f3f0,stroke:#8a8983,color:#0b0b0b
