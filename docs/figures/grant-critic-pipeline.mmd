@@ -2,11 +2,11 @@ graph TD
   A[Your proposal] --> C[Gate check:<br/>eligibility and call rules]
   B[Funder rules] --> C
   C -->|fail| X[Stop: this route is closed]
+  C -->|pass or unknown| E[Readiness:<br/>eight evidence factors]
   C -->|pass or unknown| D[Similarity:<br/>six dimensions, 0 to 100]
   R[253 public award records] --> D
-  C -->|pass or unknown| E[Readiness:<br/>eight evidence factors]
-  D --> F[Gap analysis against<br/>closest comparators]
-  E --> F
+  E --> F[Gap analysis against<br/>closest comparators]
+  D --> F
   F --> G[Ranked edits with<br/>acceptance checks]
   G --> H[A person verifies each<br/>suggestion is true]
   class A,B,R neutral

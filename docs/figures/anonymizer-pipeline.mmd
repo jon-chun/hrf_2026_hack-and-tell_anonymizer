@@ -4,14 +4,15 @@ graph TD
   B --> D[Merge detections<br/>find every repeat mention]
   C --> D
   D --> E[Replace with surrogates]
-  E --> F[Anonymized text]
   E --> G[Encrypted mapping]
+  E --> F[Anonymized text]
   F --> H[Layer 3a: Local verification]
+  H -->|leak| X[Add missed values<br/>as extra terms and re-run]
   H -->|passes| I[Layer 3b: Agent audit]
-  I -->|new leaks become extra terms,<br/>then re-run from the raw text| A
-  I --> J{Gate}
+  I -->|leak| X
+  I -->|no direct leaks| J{Gate}
   J -->|a person accepts<br/>flagged passages| K[Reviewed output]
-  class A,B,C,D,E,F,G,H local
+  class A,B,C,D,E,F,G,H,X local
   class I provider
   class J,K human
   classDef local fill:#e8f1fb,stroke:#2a78d6,color:#0b0b0b

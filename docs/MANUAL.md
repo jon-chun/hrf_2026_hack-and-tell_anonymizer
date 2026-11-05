@@ -1,6 +1,6 @@
 # User Manual
 
-This manual covers both tools in this repository: the multilayer PII anonymizer and the grant proposal critic. For a short overview, see the [README](../README.md).
+This manual covers both tools in this repository: the multilayer PII anonymizer and the grant proposal critic. For a short overview, see the [README](../README.md). This manual is available as [Markdown](MANUAL.md), [PDF](MANUAL.pdf) and [Word](MANUAL.docx).
 
 **Contents**
 
@@ -9,6 +9,7 @@ This manual covers both tools in this repository: the multilayer PII anonymizer 
 - [Part 3: Grant proposal critic](#part-3-grant-proposal-critic)
 - [Part 4: Using the tools together](#part-4-using-the-tools-together)
 - [Part 5: Troubleshooting](#part-5-troubleshooting)
+- [Appendix: rebuilding this manual](#appendix-rebuilding-this-manual)
 
 ---
 
@@ -16,7 +17,7 @@ This manual covers both tools in this repository: the multilayer PII anonymizer 
 
 ## 1.1 Who this is for
 
-These tools are for staff at civil-society organizations and the technologists who support them. You need to be comfortable running commands in a terminal. Part 2 does not require programming. Running a new grant evaluation (section 3.6) does involve directing an AI agent and editing a script.
+These tools are for staff at civil-society organizations and the technologists who support them. You need to be comfortable running commands in a terminal. Part 2 does not require programming. Running a new grant evaluation (section 3.7) does involve directing an AI agent and editing a script.
 
 ## 1.2 Status
 
@@ -51,14 +52,9 @@ The same person gets the same surrogate everywhere, so the narrative still makes
 
 ## 2.2 How the layers work
 
-```text
-raw text ─┬─ Layer 1: patterns, denylist, fuzzy matches ─┐
-          └─ Layer 2: Presidio/spaCy, secret detectors ──┴─ merge ─ surrogates ─ anonymized text
-                                                                                + encrypted mapping
-anonymized text ─ Layer 3a: local verification ─ Layer 3b: agent audit ─ gate
-                                                       │
-                     findings become extra terms ──────┴─ re-run from the raw text
-```
+![Flowchart. A raw document goes through pattern and library detection, detections merge, and surrogates replace them, producing anonymized text and an encrypted mapping. Local verification and then an agent audit check the text. Any leak adds extra terms and re-runs. Otherwise the gate requires a person to accept flagged passages.](figures/anonymizer-pipeline.png)
+
+*Figure 1. The anonymizer pipeline. Blue steps run on your machine. The orange step reaches the model provider under the default setup. Green steps involve a person.*
 
 | Layer | Finds | Typical misses |
 |---|---|---|
@@ -70,8 +66,12 @@ anonymized text ─ Layer 3a: local verification ─ Layer 3b: agent audit ─ g
 Three design choices matter most:
 
 - **Detection runs once, on the original text.** Surrogates are never re-scanned as input, which prevents double replacement.
-- **Repeat mentions are propagated.** Once `Amina Yusuf` is found, later mentions of `Amina`, `Yusuf` and `amina` are replaced too. Ordinary English words are matched only when capitalized.
+- **Repeat mentions are propagated.** Once `Amina Yusuf` is found, later mentions of `Amina`, `Yusuf` and `amina` are replaced too. Ordinary English words are matched only when capitalized. Figure 2 shows how one person keeps one identity.
 - **The audit agent sees only anonymized text.** It runs only after local verification passes, and it receives the list of surrogates so it does not flag them as leaks.
+
+![Diagram. The mentions John Smith, John, Dr. Smith and SMITH all resolve to one fake identity, and become Mark Davis, Mark, Dr. Davis and DAVIS.](figures/surrogate-consistency.png)
+
+*Figure 2. Every form of a name maps to the same fake identity, so the narrative stays coherent. Example values only.*
 
 ## 2.3 Installation
 
@@ -154,6 +154,10 @@ bin/anon gate workspace/out/notes.report.json --findings workspace/out/notes.fin
 
 The gate fails on any high-severity finding, and on any passage needing human judgment. After a person has read those passages and accepts them, they re-run with `--human-reviewed`. To change a passage, edit the source document and re-run.
 
+![Decision flowchart. A high-severity direct leak means apply findings, re-run and audit again. Otherwise, if no passages need human judgment, the gate passes. If they do, a person reads them. Acceptable passages lead to re-running the gate with the human-reviewed flag, and unacceptable ones to editing the source and re-running.](figures/gate-decisions.png)
+
+*Figure 3. How the gate decides.*
+
 **Step 6: restore when authorized.**
 
 ```bash
@@ -175,6 +179,10 @@ Start Claude Code **inside `anon-artifacts/`**. The skills, agent and guard hook
 The guard hook blocks agent access to `workspace/raw/`, mapping files, keys and `terms.local.yaml`. It is a safety net, not a sandbox: it inspects paths and commands, and a determined workaround could get past it. The skills tell agents never to add `--human-reviewed` on their own, but the hook does not enforce this, so check how the gate was run. That decision is yours.
 
 **Note on the default audit:** the agent's text goes to Anthropic through Claude Code. Layers 1 and 2 left about one known value in eight in blind testing, so real values can reach the provider during the audit. For high-risk documents, see section 2.10.
+
+![Diagram. On your machine, raw documents, the terms file and the master key feed the bin/anon tool, which produces encrypted mappings and anonymized text. Only anonymized text crosses to an audit agent at the model provider, which returns findings.](figures/data-boundary.png)
+
+*Figure 4. What leaves your machine under the default audit. Only anonymized text crosses, but it can still contain values the earlier layers missed. Setting the backend to `none` removes this crossing.*
 
 ## 2.7 Commands and files
 
@@ -269,6 +277,11 @@ All documents are synthetic. Each ran alone, with no denylist. A leak means a kn
 | Blind set 1, after tuning, not blind | 194 | 21 | 2 | 8 of 32 |
 | Development fixtures, not blind | 121 | 3 | not run | 0 of 79 |
 
+
+![Bar chart of leaked values. Blind set 2 with final rules: 10 of 81 after layers 1 and 2, 0 of 81 after one audit round. Blind set 1 after tuning: 21 of 194, then 2 of 194. Blind set 1 before tuning: 59 of 194.](figures/leak-results.png)
+
+*Figure 5. Leak rates by test and stage. The same data appears in the table above.*
+
 Trust blind set 2 most, and note its limits: it has four documents, and the same model family wrote and audited them. Details are in the [summary report](../anon-artifacts/report/summary-report.md), and the design is in the [technical specification](../anon-artifacts/spec/tech-spec.md).
 
 To re-run the tests:
@@ -320,6 +333,10 @@ Civil Rights Defenders and Freedom House have program evidence only, with no att
 ## 3.4 The method
 
 The full definitions are in [`EVAL_METRIC.md`](../revisions/version_20261104-1652/EVAL_METRIC.md).
+
+![Flowchart. A proposal and funder rules enter a gate check. A failure stops that route. Otherwise readiness is scored on eight factors and similarity on six dimensions against 253 award records. Both feed a gap analysis, which produces ranked edits that a person verifies.](figures/grant-critic-pipeline.png)
+
+*Figure 6. The grant critic method. A failed gate ends the route, whatever the scores.*
 
 **Step 1: gate.** Check applicant type and country, beneficiary geography, permitted activities, grant size, call status, partners, co-funding and license rules. Mark each pass, fail or unknown. **A failed gate ends that route, whatever the similarity score.** Rewording cannot fix ineligibility.
 
@@ -400,6 +417,11 @@ The fictional proposal requests $168,400 over 12 months to support citizen docum
 | 4.25 | Clarify outcomes and attribution | Each outcome has an indicator, source and realistic attribution language |
 | 3.38 | Specify secure evidence handling | Threat model, reviewer and consent rules stated; no guarantee of anonymity |
 | 2.00 | Improve editorial and outreach detail | Workflow and correction policy match budgeted capacity |
+
+
+![Bar chart of seven edit priorities, from 10.12 for demonstrating realistic, safe delivery down to 2.00 for improving editorial and outreach detail.](figures/edit-priorities.png)
+
+*Figure 7. The same priorities as the table above, showing the relative gaps between edits.*
 
 To check one by hand, the first edit is `15 × 0.75 × (0.5 + 0.5 × 1.0) × 0.9 ÷ 1 = 10.125`.
 
@@ -503,3 +525,16 @@ The tools also share a lesson. The critic's worked example recommends replacing 
 | Reverse restore leaves some surrogates | The anonymized text was edited, and some surrogates became ambiguous | Restore from the unedited anonymized file when possible, which is byte-exact |
 | `git commit` is refused by a secret scan | Test files hold deliberately fake credentials | Allowlist exact false positives; do not bypass the hook |
 | `ollama` permission error | Its model folder is on an unmounted volume | Mount the volume or change `OLLAMA_MODELS` |
+
+---
+
+# Appendix: rebuilding this manual
+
+`docs/MANUAL.md` is the single source. Do not edit the PDF or Word files directly.
+
+```bash
+docs/figures/render.sh          # redraw figures from docs/figures/*.mmd and build_charts.py
+python3 docs/build_manual.py    # write docs/MANUAL.pdf and docs/MANUAL.docx
+```
+
+The figures use gstack's `browse` tool and the PDF uses its `make-pdf` tool, both installed under `~/.claude/skills/gstack`. The Word file uses `pandoc`. Each diagram also has an `.excalidraw` file you can open at excalidraw.com. Rendered figures are committed, so readers do not need these tools.

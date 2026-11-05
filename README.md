@@ -7,7 +7,7 @@ Two tools for organizations working on human rights, independent media and democ
 
 Built at the HRF 2026 Hack and Tell. Both are working prototypes, tested on synthetic documents. Neither replaces a human reviewer, and neither makes a legal or funding guarantee.
 
-**Full documentation: [docs/MANUAL.md](docs/MANUAL.md)**
+**Full manual: [Markdown](docs/MANUAL.md) | [PDF](docs/MANUAL.pdf) | [Word](docs/MANUAL.docx)**
 
 ## At a glance
 
@@ -31,6 +31,10 @@ Each layer catches what the previous one misses:
 | 3b. Agent audit | A fresh AI agent reads only the anonymized text, hunts for leaks and flags sentences that could identify someone without naming them | By default through Claude Code, so this text reaches the model provider |
 
 Each layer, threshold and entity type is configurable in [`engine/config.yaml`](anon-artifacts/engine/config.yaml).
+
+![Flowchart of the anonymizer: detection layers, surrogate replacement, local verification, agent audit and a gate that a person signs off.](docs/figures/anonymizer-pipeline.png)
+
+*Blue steps run on your machine. The orange step reaches the model provider under the default setup. Green steps involve a person.*
 
 ### Quick start
 
@@ -58,6 +62,8 @@ From a blind test: 4 synthetic documents written without sight of the code, hold
 | Values leaked after one audit round | 0 of 81 |
 | Words that should stay but were replaced | 15 of 26 |
 
+![Bar chart of leak rates by test and stage, matching the numbers above and in the manual.](docs/figures/leak-results.png)
+
 This is a small test and probably optimistic, because the same model family wrote and audited the documents. The output is pseudonymized, not anonymous, and a person must read flagged passages before it is shared. Read the [limits](docs/MANUAL.md#29-limits).
 
 ## Grant proposal critic
@@ -68,6 +74,8 @@ Given a proposal and a set of funders, the method produces:
 2. A **similarity ranking** against public funded-project records, with score bounds where records are sparse.
 3. A **readiness rubric** that shows what evidence the proposal still lacks.
 4. A **ranked list of edits**, each with a priority calculation and an acceptance check.
+
+![Flowchart of the critic: gate check, then readiness and similarity scoring, gap analysis, ranked edits and human verification.](docs/figures/grant-critic-pipeline.png)
 
 The saved evidence covers **15 funders and 253 public award records**, from the Open Technology Fund to the National Endowment for Democracy.
 

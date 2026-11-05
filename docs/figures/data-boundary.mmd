@@ -15,7 +15,7 @@ graph LR
   subgraph P[Model provider, default audit only]
     Q[Audit agent]
   end
-  O -->|anonymized text only,<br/>may contain missed values| Q
+  O -->|anonymized text only| Q
   Q -->|findings| C
   class R,T,K,V,C,O local
   class Q provider
